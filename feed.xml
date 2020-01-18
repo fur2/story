@@ -3,12 +3,32 @@
     <title>fur2</title>
     <link href="https://fur2.now.sh/feed.xml" rel="self" />
     <link href="https://fur2.now.sh" />
-    <updated>2020-01-18T12:05:54+08:00</updated>
+    <updated>2020-01-18T12:12:06+08:00</updated>
     <author>
         <name>Legacy</name>
     </author>
     <id>https://fur2.now.sh</id>
 
+    <entry>
+        <title>黑狼王子与三只小猫</title>
+        <author>
+            <name>Legacy</name>
+        </author>
+        <link href="https://fur2.now.sh/hei-lang-wang-zi-yu-san-zhi-xiao-mao/"/>
+        <id>https://fur2.now.sh/hei-lang-wang-zi-yu-san-zhi-xiao-mao/</id>
+
+        <updated>2020-01-18T12:11:11+08:00</updated>
+            <summary>
+                <![CDATA[
+                     
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div class="position-relative js-header-wrapper "> </div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>欢迎</title>
         <author>

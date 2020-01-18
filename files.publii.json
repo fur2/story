@@ -172,17 +172,17 @@
     {
         "path": "/authors/legacy/index.html",
         "type": "file",
-        "md5": "9cd1ea002277b774cf718c2f0f70973f"
+        "md5": "1dacf93f2e58b55a23cadd35b3257aea"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "2ad72b7c1e752144871420b8afb7ab79"
+        "md5": "4512b4efca546fcd35dd1247d6288eae"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "20a86e00b13ba8b17a22c7738aa59414"
+        "md5": "dd06d44af31c955aa4be5cc347660122"
     },
     {
         "path": "hei-lang-wang-zi-yu-san-zhi-xiao-mao",
@@ -192,12 +192,12 @@
     {
         "path": "/hei-lang-wang-zi-yu-san-zhi-xiao-mao/index.html",
         "type": "file",
-        "md5": "4f1a19f37b6489104b1e3e6d89cd34aa"
+        "md5": "39b5f2f225fca776cab0b38e3a14794d"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "15682bab5d4c395530cead38e1678074"
+        "md5": "c2d64bb1046f7d5d8ea05a07b4b84ec4"
     },
     {
         "path": "media",
@@ -237,7 +237,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "ac6f9eace639ef1e1a94140304b92aab"
+        "md5": "bdaebacec6e98df1f1ff9a3b4ef54826"
     },
     {
         "path": "sitemap.xsl",
@@ -252,6 +252,6 @@
     {
         "path": "/welcome/index.html",
         "type": "file",
-        "md5": "0b9aa2412486f977e203dd3c7436d30f"
+        "md5": "fea9a362632b3036a2e9251d6570263a"
     }
 ]
