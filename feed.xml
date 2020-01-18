@@ -1,456 +1,1902 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>fur2</title>
+    <title>fur2-inky指南</title>
     <link href="https://fur2.now.sh/feed.xml" rel="self" />
     <link href="https://fur2.now.sh" />
-    <updated>2020-01-18T16:52:57+08:00</updated>
+    <updated>2020-01-18T17:24:50+08:00</updated>
     <author>
         <name>Legacy</name>
     </author>
     <id>https://fur2.now.sh</id>
 
     <entry>
-        <title>尼昂的清单</title>
+        <title>更多文档</title>
         <author>
             <name>Legacy</name>
         </author>
-        <link href="https://fur2.now.sh/ni-ang-de-qing-dan/"/>
-        <id>https://fur2.now.sh/ni-ang-de-qing-dan/</id>
-            <category term="黑暗"/>
-            <category term="狼"/>
+        <link href="https://fur2.now.sh/geng-duo-wen-dang/"/>
+        <id>https://fur2.now.sh/geng-duo-wen-dang/</id>
 
-        <updated>2020-01-18T16:17:04+08:00</updated>
+        <updated>2020-01-18T17:14:54+08:00</updated>
             <summary>
                 <![CDATA[
-                    第一个 煤灰是一个老道的猎手，身为狼族的他平日除了接些大单子，最爱干的就是在酒馆里装成萌新，接一些新手向的任务，然后再趁机在敲诈雇主一把。被敲诈的雇主往往也没什么经验，煤灰往往虚张下声势就把他们吓跑了。而那些缠着不放的雇主，煤灰干脆就赔些钱，反正也不指着这种小单过日子，虽说一击毙命也对煤灰这种老手不是什么难事，但干这一行还是要留些好的名声的。 今天，煤灰和往常一样来到了“小狐狸”酒馆。旁边的墙上和往常一样贴着各种任务，等着有人去把他们揭下来。煤灰是不屑于去看那些任务的，因为贴在墙上的任务不是报酬太小，就是太枯燥无聊了。 “伙计们。最近有什么消息？”煤灰钻到了一伙人里。 “哇，猎狼，你回来了？听说你接了一个大单子？哪天请兄弟们喝一顿？” “哦，行呀，选个日子。确实是个大单子，干完这一笔我都想养老去了。” 猎狼是煤灰的绰号，酒馆里的人们都没有用真名交谈的。 “你这可不行呀，手痒又回来了？” “是呀，那最近有什么消息吗？” “看到那头小狼了吗？” 有人朝煤灰使了个颜色，朝酒馆的一角看了一眼，那有一张小桌子，坐着一头看起来有些年轻的白狼，裹得严严实实的，在喝一杯牛奶。 “那头小狼想找个人陪他穿过雪山去大城镇，价钱好商量。冬天雪山不好走，没人愿意去。” “听起来不错，我去看看。等我回来请你们喝酒。” 煤灰站起身来，端了一杯小麦酒，走了过去。 “小兄弟，怎么称呼啊？” “尼昂。” 应该不是这片的人，无论是从口音，还是名字，相貌，至少不是煤灰曾经去过的地方的人。 “你可以叫我猎狼，他们都这么叫我。听说你想过雪山？” “嗯。” “为什么这个时候急着过雪山呢？” “有人托我些事。” ”你准备多少报酬呢，冬天雪山可不好走。“ “1000凛。” 不错的报酬，比煤灰心里想的稍微高了一点，多出来的那些够煤灰请一顿酒的钱了。 “我带你过雪山如何，虽然我刚干这行，但还是有信心的。就收你980凛好吗？”&hellip;
+                    高阶 Inky 残卷 INK 最初被设计为游戏引擎的脚本插件，因此具有丰富而强大的功能。我将官方文档中，部分我有兴趣，且对你使用 Inky 可能有帮助的内容翻译至此。如你发现“好像少了些什么”，或想进一步了解，请阅读官方文档。 随着故事变长，在没有其他结构的情况下，它们会越来越乱，难以井井有条。 结点可以包括称为“针脚”（stitches）的子结点，这些使用单个等号（=）标记。 === the_orient_express === //东方快车 结点= in_first_class //头等厢 针脚 ...= in_third_class //三等厢 针脚 ...= in_the_guards_van //警务车厢 针脚&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <div>
-<h2 id="mcetoc_1durqr8ab0">第一个</h2>
-<br>
-<div>煤灰是一个老道的猎手，身为狼族的他平日除了接些大单子，最爱干的就是在酒馆里装成萌新，接一些新手向的任务，然后再趁机在敲诈雇主一把。被敲诈的雇主往往也没什么经验，煤灰往往虚张下声势就把他们吓跑了。而那些缠着不放的雇主，煤灰干脆就赔些钱，反正也不指着这种小单过日子，虽说一击毙命也对煤灰这种老手不是什么难事，但干这一行还是要留些好的名声的。</div>
-<br>
-<div>今天，煤灰和往常一样来到了“小狐狸”酒馆。旁边的墙上和往常一样贴着各种任务，等着有人去把他们揭下来。煤灰是不屑于去看那些任务的，因为贴在墙上的任务不是报酬太小，就是太枯燥无聊了。</div>
-<br>
-<div>“伙计们。最近有什么消息？”煤灰钻到了一伙人里。</div>
-<br>
-<div>“哇，猎狼，你回来了？听说你接了一个大单子？哪天请兄弟们喝一顿？”</div>
-<br>
-<div>“哦，行呀，选个日子。确实是个大单子，<strong>干完这一笔我都想养老去了</strong>。”</div>
-<br>
-<div>猎狼是煤灰的绰号，酒馆里的人们都没有用真名交谈的。</div>
-<br>
-<div>“你这可不行呀，手痒又回来了？”</div>
-<br>
-<div>“是呀，那最近有什么消息吗？”</div>
-<br>
-<div>“看到那头小狼了吗？”</div>
-<br>
-<div>有人朝煤灰使了个颜色，朝酒馆的一角看了一眼，那有一张小桌子，坐着一头看起来有些年轻的白狼，裹得严严实实的，在喝一杯牛奶。</div>
-<br>
-<div>“那头小狼想找个人陪他穿过雪山去大城镇，价钱好商量。<strong>冬天雪山不好走</strong>，没人愿意去。”</div>
-<br>
-<div>“听起来不错，我去看看。等我回来请你们喝酒。”</div>
-<br>
-<div>煤灰站起身来，端了一杯小麦酒，走了过去。</div>
-<br>
-<div>“小兄弟，怎么称呼啊？”</div>
-<br>
-<div>“尼昂。”</div>
-<br>
-<div>应该不是这片的人，无论是从口音，还是名字，相貌，至少不是煤灰曾经去过的地方的人。</div>
-<br>
-<div>“你可以叫我猎狼，他们都这么叫我。听说你想过雪山？”</div>
-<br>
-<div>“嗯。”</div>
-<br>
-<div>“为什么这个时候急着过雪山呢？”</div>
-<br>
-<div>“有人托我些事。”</div>
-<br>
-<div>”你准备多少报酬呢，冬天雪山可不好走。“</div>
-<br>
-<div>“1000凛。”</div>
-<br>
-<div>不错的报酬，比煤灰心里想的稍微高了一点，多出来的那些够煤灰请一顿酒的钱了。</div>
-<br>
-<div>“我带你过雪山如何，虽然我刚干这行，但还是有信心的。就收你980凛好吗？”</div>
-<br>
-<div>“好。”</div>
-<br>
-<div>煤灰端着小麦酒走了回来，喝了一口小麦酒，甜甜的。</div>
-<br>
-<div>“猎狼，你又装萌新骗人。”</div>
-<br>
-<div>“不管怎么说，搞定了。等我回来请你们喝酒。”</div>
-<br>
-<div>“一言为定。”</div>
-<br>
-<div>“一言为定。”</div>
-<br>
-<div>煤灰和众人干了酒杯，走到了尼昂身边，“准备些东西，我们下午动身。”</div>
-<br>
-<div>“我在雪山脚那等你。”</div>
-<br>
-<div>其实也没什么好准备的，作为这一行的老手，东西也就那几样，简单的单子拿的东西再少些，走路也轻便些。煤灰拿上了行李，背上了一把猎弓，跨上一并短剑。正要出门又回头看了看，把床底的一把<strong>匕首</strong>摸了出来，插在了自己左腿的靴子里。</div>
-<br><br><br>
-<div>两只人狼兽人就这么一起上山了。</div>
-<br>
-<div>冬季雪山的路不是那么好走，不过对煤灰这种来自北方的狼来说，也不算是太艰难的。</div>
-<br>
-<div>“尼昂，跟上。小心落单<strong>被狼叼走</strong>。”煤灰半开玩笑半认真的说。</div>
-<br>
-<div>然而走在后面的尼昂没有任何回应。</div>
-<br>
-<div>煤灰觉得有些奇怪，似乎并不是尼昂跟不上，更像是**刻意**的和煤灰保持一定的距离，无论煤灰走的快与慢，总能跟在身后八九步远的地方。</div>
-<br>
-<div>差不多走到半山腰了， 不知为何，觉得身体有些发热。</div>
-<br>
-<div>难道是上午酒喝多了，可是只喝了一杯小麦酒。</div>
-<br>
-<div>北风在呼啸，隐隐约约的有什么声响夹杂在其中。煤灰的狼耳朵动了动，像是冰灵破碎的声音！</div>
-<br>
-<div>**雪崩**！</div>
-<br>
-<div>“尼昂！”煤灰连忙回头，发现尼昂竟然不知什么时候已经**不见了踪影**。</div>
-<br>
-<div>管不了那么多了，需要先找一个躲避雪崩的地方。</div>
-<br>
-<div>那边有一个山洞！</div>
-<br>
-<div>“哈，哈，哈，”</div>
-<br>
-<div>站在山洞里的煤灰穿着粗气，庆幸自己躲过一劫。</div>
-<br>
-<div>可是尼昂呢？</div>
-<br>
-<div>煤灰也不知该怎么办，但冬季过雪山本来就是件风险很大的事，也不能全怪自己吧。</div>
-<br>
-<div>温热的呼吸从煤灰身后传来，煤灰本能的转过身来。</div>
-<br>
-<div><strong>狼</strong>，好大的狼！**雪白**四条腿的巨狼，冒着热气的舌头划过锋利的獠牙，两只瞪得浑圆的眼睛正在那盯着煤灰。</div>
-<br>
-<div>煤灰二话没说抽出了短剑。</div>
-<br>
-<div>“可恶！”酒劲发作了，本来吓出一身冷汗散去的酒气，不知为何又在煤灰的头部聚集了起来。煤灰觉得视线模糊，有些重心不稳。</div>
-<br>
-<div>狼自然不会放过这个机会，嗷呜一声扑了过去。</div>
-<br>
-<div>煤灰仓促的用短剑挡了一下，当的一声短剑在空中飞了几圈掉到了远处，煤灰也重心不稳的做到了地上。</div>
-<br>
-<div>会被狼咬死吗？被狼一口咬成两段，干净利落的死去。</div>
-<br>
-<div>不行！脑子里不能半点恐惧，一但恐惧生根发芽。</div>
-<br>
-<div>狼压低身子，一步步的逼近，据煤灰只有三步之遥。</div>
-<br>
-<div>“嗷！”</div>
-<br>
-<div>煤灰用猎弓当做木棒向狼的左眼抽去，狼惨叫一声眼冒金星了好一阵子。</div>
-<br>
-<div>煤灰转身就跑。</div>
-<br>
-<div>出了山洞的煤灰，发现四处都是惨白的雪，根本无处藏身。</div>
-<br>
-<div>那边有个树林！煤灰向树林跑去。</div>
-<br>
-<div>愤怒的狼被彻底激发了兽性，从山洞爬了出来。</div>
-<br>
-<div>刷刷！躲在树林后的煤灰连射了好几箭出来，狼身上出现了好几个殷红的口子。</div>
-<br>
-<div>狼在向煤灰所在的树林冲了过来，躲在树后煤灰又朝狼射了好几箭。</div>
-<br>
-<div>意向不到的事发生了，狼竟然撞到了树林里的树，扑倒了煤灰跟前，一口咬住了煤灰的**脚踝**，猛地把煤灰向空中甩去。</div>
-<br>
-<div>煤灰上天了，然后重重的摔了下来。</div>
-<br>
-<div>鼻腔满是血的腥味。好在地上有厚厚的雪，可是脚踝撕裂般的疼痛，让煤灰无法站起来了。</div>
-<br>
-<div>狼缓缓地靠近，在不远处坐了下来，似乎在看煤灰哪里更好吃些。</div>
-<br>
-<div>不要害怕，不要慌，不要，我每次都能死里逃生的！</div>
-<br>
-<div>狼扑了过来。煤灰一个转身，用猎弓套住了狼的头，紧紧勒住了狼的脖子。</div>
-<br>
-<div>狼拼命挣扎着，煤灰不敢有半点松懈，就这样僵持了好久。最终狼没了动静，倒在了雪地上。</div>
-<br>
-<div>煤灰松了口气，在狼身旁坐了下来。作为一头狼，煤灰深知狼的奸诈，必须得<strong>补一刀</strong>才能放心。</div>
-<br>
-<div>煤灰摸了摸靴子，匕首还在。看了看那狼，银色的皮毛在雪的映衬下美的荡人心魄。</div>
-<br>
-<div>如果把它的皮剥下，应该能值不少钱吧？</div>
-<br>
-<div>煤灰盘算着从哪里下刀，头有些晕，可能是酒劲又上来了。</div>
-<br>
-<div>“咳！”</div>
-<br>
-<div>殷红的血模糊了煤灰的视线，诈尸的狼一口咬住了煤灰的脖子 。</div>
-<br>
-<div>被血染红的匕首，和煤灰一样，跌落在了雪地上。</div>
-<br>
-<div>-----</div>
-<br>
-<div>小狐狸酒馆和往常一样有很多人，只是那群人不愿意再提起离奇失踪的煤灰，这让那群干这一行的人觉得很不吉利。</div>
-<h2 id="mcetoc_1durqrols1">第二个</h2>
-<br>
-<div><strong>雪豹开尔</strong>是一个<strong>年轻的祭司</strong>，他一直认为自己是为信仰而生的。有人问他的信仰有多深，开尔说自己身上有多少个斑点，他的信仰就有多么的深。有一天，他来到了边境的大城镇，接替上一任的老祭司，就任之前路过了大城镇的集市。</div>
-<br>
-<div>在**物资短缺**的边境，集市是最好的补充资源的时机。考虑到集市并不是每天都有，开尔也逛了逛集市，购置些货物。</div>
-<br>
-<div>大部分东西开尔都是看不上眼的，不是太华而不实，就是开尔真的看不上眼。</div>
-<br>
-<div>直到开尔也不知道怎么就走到了集市的一个小角落，见到那里有个<strong>裹得严严实实的白狼在摆地摊</strong>，卖一件<strong>深灰色的狼皮大衣</strong>。</div>
-<br>
-<div>“狼卖狼皮大衣？”让人觉得有些匪夷所思。</div>
-<br>
-<div>但开尔还是试了试那件狼皮大衣，毕竟谁不想在这严寒的地方有件暖和的大衣呢？</div>
-<br>
-<div>不可思议！虽然这件狼皮大衣做工一般，但皮质实属上乘，尤其是这毛色的光泽，简直是狼皮中的贵族，开尔从来没见过这么好的狼皮。更令人惊奇的是，这件狼皮大衣接口很少，近乎没有，似乎这件狼皮大衣就是直接长出来的，没有经过裁剪缝合。</div>
-<br>
-<div>可惜的是，这件深灰色的狼皮大衣开尔穿起来实在是有些大，要不开尔 一定会买下来的。</div>
-<br>
-<div>“神明在上，您还有别的东西卖吗？”</div>
-<br>
-<div>那头白狼在身后拿出了一个管子，“我觉得你不会要的。”</div>
-<br>
-<div>一颗硕大的<strong>狼心</strong>，泡在罐子里的液体里，看起来还很新鲜，似乎还在动。这颗心的主人应该是一头很大，且十分健壮的狼吧。</div>
-<br>
-<div>狼心一般用于巫术之类的，据说可以做出<strong>致命的毒咒</strong>。这不是开尔关心的事，开尔也自然不会想要这颗狼心，便告辞了卖家。在集市上又转了一会，开尔离开了集市。</div>
-<br><br><br>
-<div>祭坛的老祭祀已经提前走了，看样子在这里工作是一个是个苦差事，不过也是一个修行的好地方。开尔简单的整理了下老祭祀住的房间，看到桌子上散落着很多信件，便把信件搭好，放在抽屉里了。</div>
-<br>
-<div>“最近这里有什么消息吗？”</div>
-<br>
-<div>“回祭司大人，据说前些日子附近的小镇有个老的猎手在雪上上失踪了，给当地带来了很大的震动。”</div>
-<br>
-<div>“我们可以拿这事做做文章，传播下我们的信仰，让那些年轻人更务实些，别总想着那些投机的事情。“</div>
-<br>
-<div>“祭司大人说的是。有人说那位猎手在雪山上遇到了可怕的怪物，劝人们不要上山。我们要不要封山呢？”</div>
-<br>
-<div>“这里的人们世世代代生活在这里，雪山里居民区这么近，怎么可能有可怕的怪物呢？不过这倒是一个可以让我们**提升威望的好机会**，也许还能展现下神迹。”</div>
-<div> </div>
-<div>……</div>
+                <div class="header___O32EY">
+<div class="title___3ntsK">
+<h1 id="article-title" class="articleTitle___3zWrP">高阶 Inky 残卷</h1>
+</div>
+</div>
+<div class="content___2v1LS">
+<div class="yuque-doc-content" >
+<div class="lake-engine-view" tabindex="0">
+<p> </p>
+<blockquote>
+<p>INK 最初被设计为游戏引擎的脚本插件，因此具有丰富而强大的功能。我将官方文档中，部分我有兴趣，且对你使用 Inky 可能有帮助的内容翻译至此。如你发现“好像少了些什么”，或想进一步了解，请阅读<a href="https://github.com/inkle/ink/blob/master/Documentation/WritingWithInk.md" target="_blank" rel="noopener noreferrer">官方文档</a>。</p>
+</blockquote>
+<p> </p>
+<h1 id="TLpja">1. 基础</h1>
+<h2 id="cDQJr">1.1 <a href="https://www.yuque.com/apsno9/pcke0w/gix3ga" target="_blank" rel="noopener noreferrer">Inky 基础教程</a></h2>
+<h2 id="G4kWa">1.2 <a href="https://github.com/inkle/ink/blob/master/Documentation/WritingWithInk.md#6-includes-and-stitches" target="_blank" rel="noopener noreferrer">针脚 stitches</a></h2>
+<h3 id="QzCB7">结点可有子节点</h3>
+<p>随着故事变长，在没有其他结构的情况下，它们会越来越乱，难以井井有条。</p>
+<p>结点可以包括称为“针脚”（stitches）的子结点，这些使用<strong>单个等号</strong>（<code>=</code>）标记。</p>
+<p> </p>
+<div id="subQJ"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== the_orient_express === //东方快车 结点
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">= in_first_class //头等厢 针脚
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    ...
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">= in_third_class //三等厢 针脚
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    ...
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">= in_the_guards_van //警务车厢 针脚
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    ...
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">= missed_the_train //错过火车 针脚
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    ...</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>例如，可以使用一个结点来写拍摄场景，用结点里的多个针脚来写场景中的事件。</p>
+<p> </p>
+<h3 id="8wPDj">针脚有唯一的名称</h3>
+<p>针脚可被用于跳转的地址。</p>
+<p> </p>
+<div id="Vov3J"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">*   [前往三等厢]
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    -&gt; the_orient_express.in_third_class //跳转到 东方快车结点 下的 三等舱针脚
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">*   [前往警务车厢]
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    -&gt; the_orient_express.in_the_guards_van //跳转到 东方快车结点 下的 警务车厢针脚</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<h3 id="ej2FD">第一个是默认针脚</h3>
+<p>如果结点包含针脚，默认跳转到第一个针脚。</p>
+<p> </p>
+<div id="Ojl9M"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">*   [前往头等厢]
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    “头等厢, 先生。 还有其他地方吗？”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    -&gt; the_orient_express</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>等同于（...除非我们改变结点内针脚的顺序！）：</p>
+<p> </p>
+<div id="GUD6w"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">*   [前往头等厢]
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    “头等厢, 先生。 还有其他地方吗？”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    -&gt; the_orient_express.in_first_class </span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>你还可以在针脚外的顶部加入任何内容，但注意此时不会自动运行第一个针脚。</p>
+<p> </p>
+<div id="ZuAaq"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== the_orient_express === 
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">我们上车了，但是去哪？
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">*   [头等厢] -&gt; in_first_class
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">*   [二等厢] -&gt; in_second_class
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">= in_first_class //不会自动运行第一个针脚
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    ...
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">= in_second_class
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    ...</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<h3 id="ENqoW">本地跳转</h3>
+<p>在结点内部，你无需完整的针脚地址。</p>
+<p> </p>
+<div id="SB9nS"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">-&gt; the_orient_express
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== the_orient_express ===
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">= in_first_class 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    我安顿好我的主人。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    *   [前往三等厢]
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        -&gt; in_third_class
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">= in_third_class
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    我坐下来了。</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>这意味着针脚和结点的名称不能相同，但是不同的结点里可以有相同名称的针脚。（你不能把某个车厢也叫东方快车，但东方快车和蒙古专列里都可以有头等舱。）如果使用了不明确的名称，编译器发出警告。</p>
+<p> </p>
+<h3 id="KrN2u"><a href="https://github.com/inkle/ink/blob/master/Documentation/WritingWithInk.md#script-files-can-be-combined" target="_blank" rel="noopener noreferrer">脚本文件可以合并</a></h3>
+<p> </p>
+<h2 id="AfsXv">1.3 选项 choices</h2>
+<h3 id="w2ZSK"><a href="https://github.com/inkle/ink/blob/master/Documentation/WritingWithInk.md#fallback-choices" target="_blank" rel="noopener noreferrer">后备选项 fallback choices</a></h3>
+<p>如果某个地方都是一次性选项，那么多次经历后，可能会出现“内容用光（ran out of content）”的错误。</p>
+<p>我们可通过“后备选择”解决问题。后备选项不会直接显示给玩家，但如果没有其他选项可选是，则游戏会自动选择。</p>
+<p>后备选项只是“没有选项时的选择”：<code>*	-&gt; out_of_options</code></p>
+<p>并且，在轻微滥用语法下，我们可以使其中的内容做出默认选择：</p>
+<p> </p>
+<div id="YPDtl"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">*   -&gt; 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    穆德无法解释他是怎么从那辆燃烧着的货车里出来的。 -&gt; season_2</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>举个例子：</p>
+<p> </p>
+<div id="kHdIR"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== find_help ===
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    你在人群中拼命地寻找一张友好的脸。 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    *   戴帽子的女人[？] 粗暴地把你推到一边。 -&gt; find_help
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    *   拿公文包的男人[？] 很厌恶的从旁边匆匆而过。 -&gt; find_help 
+</span></span>  
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">    *   -&gt;  //后备选项
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        但为时已晚：你倒在站台上。一切都结束了。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        -&gt; END</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p><span    ><img class="image lake-drag-image" title="1.gif" src="https://cdn.nlark.com/yuque/0/2019/gif/262531/1574067425919-b245ce8c-d8c7-42f7-89cf-ab0c7c67ff9e.gif" alt="1.gif"  ></span></p>
+<p> </p>
+<h2 id="RSKMD">1.4 <a href="https://github.com/inkle/ink/blob/master/Documentation/WritingWithInk.md#6-variable-text" target="_blank" rel="noopener noreferrer">可变文本</a> variable text</h2>
+<h3 id="eqPku">序列</h3>
+<p>序列（默认）每次都会显示下一个元素。当“没有下一个”时，它将继续显示最后一个元素。</p>
+<p> </p>
+<div id="yTUMl"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">电台嘶嘶作响。 {“三！”|“二！”|“一！”|传来了爆炸的响声。|这只有些噪声}
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">{我用五磅钞票给我买了杯咖啡。|我买了第二杯咖啡给朋友。|我没钱买咖啡了。}</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<h3 id="SpnVS">周期，一次性，随机</h3>
+<p>循环（标记 <code>&amp;</code>）就像序列，但它循环内容。</p>
+<p> </p>
+<div id="uhfgv"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">今天是 {&amp;周一|周二|周三|周四|周五|周六|周日}。</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>一次性（标记 <code>!</code>）也像序列，但当“没有下一个时”，它将不显示。</p>
+<p> </p>
+<div id="NliTD"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">他给我讲了个笑话。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">{!我有礼貌的笑了。|我微笑了。|我做了下鬼脸。|我不想再做出反应了。}</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>随机（标记 <code>~</code>）随机显示内容。</p>
+<p> </p>
+<div id="MuqTC"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">我掷了枚硬币。 {~字面|花面}。</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<h3 id="suQW6">更多技巧</h3>
+<p>可以包含空元素。</p>
+<div id="B9FAX"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">我向前迈了一步 {!||||然后灯火熄灭了。 -&gt; eek}</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>可以进行嵌套。</p>
+<p> </p>
+<div id="9SaGB"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">这个怪兽{&amp;{没浪费时间|}打|爪}{&amp;你|进你{&amp;的腿|的胳膊|的胸}}。</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>可插入跳转。</p>
+<p> </p>
+<div id="EcXOO"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">我{在等。|等了一会|打盹了。|醒来又等了会。|放弃并离开了 -&gt; leave_post_office}</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>也可在选项中使用。（注意，<code>{</code>不能出现在选项开头，会与条件选项混淆；<code>/</code> 出现在里面可能出现错误。）</p>
+<p> </p>
+<div id="gVEEX"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">+   “您好, {&amp;主人|Fogg先生|你|棕眼}!”[] 我喊道。</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>可变文字可以在循环内使用，让游戏看起来很智能，而无需特别的工作。</p>
+<p>这里是一个单结点版的"打地鼠"，<a href="https://inky-mole.netlify.com/" target="_blank" rel="noopener noreferrer">体验故事运行</a>。我们使用一次性和后备选项，阻止“地鼠逃走”，游戏始终会结束。</p>
+<p> </p>
+<div id="cqhMx"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">-&gt;whack_a_mole
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== whack_a_mole ===
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    {我举起了锤子。|{~没打中！|没有！|不好，它在哪？| 偏了！| 见鬼…| 啊，手滑了！| 嗷呜！|啊哈，抓住了！-&gt; over }}
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    这个{&amp;地鼠|{&amp;不友好的|可恶的|低级的}{&amp;生物|啮齿动物}}{在某处|藏在某处|仍然逍遥法外|嘲笑我|依旧没打中|注定会失败}。 &lt;&gt;
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    {!我会抓住它！|但这次它逃不掉了。}
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    *   [{~打|砸|尝试}左上角]  -&gt; whack_a_mole
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    *  [{~就是|暴击|猛击}右上角] -&gt; whack_a_mole
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    *  [{~砍|锤}中间] -&gt; whack_a_mole
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    *  [{~痛击|肯定是}左下角]   -&gt; whack_a_mole
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    *  [{~掀开|重击}右下角]    -&gt; whack_a_mole
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    * -&gt; 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    你累坏了！地鼠击败了你！-&gt;over
+</span></span>    
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">= over
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content"># CLASS: end
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">……全剧终
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">+ 从头再来？
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    # RESTART
+</span></span>    
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">-&gt; END</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>这里有一些生活建议。请注意选项，电视的吸引力永远不会消失：</p>
+<p> </p>
+<div id="95XSB"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== turn_on_television ===  
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">我打开电视{一次|两次|三次|更多次}，但电视上 {没啥有意思的东西，所以关上了电视|依旧没什么有意思的东西|比以前更不能吸引我的兴趣了|只有垃圾|演关于鲨鱼的节目我并不喜欢鲨鱼|什么都没有}。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">+ [再试试]    -&gt; turn_on_television
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">* [去外面] -&gt; go_outside_instead
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== go_outside_instead ===
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">-&gt; END</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<h2 id="FGlAy">1.5 <a href="https://github.com/inkle/ink/blob/master/Documentation/WritingWithInk.md#7-game-queries-and-functions" target="_blank" rel="noopener noreferrer">查询</a> queries</h2>
+<p>INK 提供了一些有用的关于游戏状态“<span class="lake-fontsize-12" style="font-size: 12px;">game level”</span>查询，用于条件逻辑。它们不是语言的一部分，但它们总是有用的，并且不能由作者编辑。从某种意义上说，它们是语言的“标准库函数”。惯例是用大写字母来命名。</p>
+<p> </p>
+<h3 id="GjAFN">CHOICE_COUNT()</h3>
+<p><code>CHOICE_COUNT</code> 返回到目前为止，当前区域内的选项数，例如：</p>
+<p> </p>
+<div id="QBg4k"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">*   {false} Option A
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">* {true} Option B
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">* {CHOICE_COUNT() == 1} Option C</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>false 表示不生成此选项，因此计数是1，显示的B和C（？）。</p>
+<p> </p>
+<p><span    ><img class="image lake-drag-image" title="image.png" src="https://cdn.nlark.com/yuque/0/2019/png/262531/1574084928723-3f196da5-79aa-476b-9dc2-ee86aa5bafb6.png" alt="image.png"  ></span></p>
+<p> </p>
+<h3 id="nUKd9">TURNS()</h3>
+<p><code>TURNS</code> 返回自游戏开始以来的回合数。</p>
+<p> </p>
+<div id="Xrawr"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">您总共经历了{TURNS()}个结点。</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p><span    ><img class="image lake-drag-image" title="image.png" src="https://cdn.nlark.com/yuque/0/2019/png/262531/1574085516084-7768dd9c-3279-4f98-b451-16774b27e164.png" alt="image.png"  ></span></p>
+<h3 id="CHNNL">TURNS_SINCE(-&gt; knot)</h3>
+<p><code>TURNS_SINCE</code> 返回自上次访问特定结点或针脚的跳转次数（玩家输入的）。</p>
+<p> </p>
+<p>值为 0 表示"在经历这个区域"。</p>
+<p> </p>
+<div id="JU6Qn"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">==laugh
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">你笑个不停……
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">+   哈哈哈…… -&gt; laugh
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">*   {TURNS_SINCE(-&gt; laugh) == 0} 你尝试不笑了-&gt;END</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>值为 -1 表示"从未经历过"，其他任何正值都意味着“经历过多次了”。</p>
+<p> </p>
+<div id="QiM0S"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">*   {TURNS_SINCE(-&gt; sleeping.intro) &gt; 10} 你觉得很累…… -&gt; sleeping </span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>注意，这里实际只是向<code>TURNS_SINCE</code> 传递一个参数<code>“转移的目标”</code>，而非是跳转至结点地址，此处不进行节点跳转。</p>
+<p> </p>
+<h3 id="P9O3i">SEED_RANDOM()</h3>
+<p><code>SEED_RANDOM</code> 出于测试目的，固定随机数生成器通常很有用，这会让每次播运行 INK 都固定产生相同的结果。你可以通过“种子”随机系统来实现。</p>
+<p> </p>
+<div id="9w0r6"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">~ SEED_RANDOM(235)</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p><span class="lake-fontsize-12" style="font-size: 12px;">传递给种子函数的数字可以是任意的，不同的种子将导致不同结果的序列。</span></p>
+<p><span class="lake-fontsize-12" style="font-size: 12px;"> </span></p>
+<p><span class="lake-fontsize-12" style="font-size: 12px;"><span    ><img class="image lake-drag-image" title="image.png" src="https://cdn.nlark.com/yuque/0/2019/png/262531/1574087802137-5cedc46e-1072-4255-b0d3-36ea47ad95ad.png" alt="image.png"  ></span></span></p>
+<p><span class="lake-fontsize-12" style="font-size: 12px;"><span    ><img class="image lake-drag-image" title="image.png" src="https://cdn.nlark.com/yuque/0/2019/png/262531/1574087910175-142e504c-8512-463f-81eb-aa8ee53dd38b.png" alt="image.png"  ></span></span></p>
+<p><span    ><img class="image lake-drag-image" title="image.png" src="https://cdn.nlark.com/yuque/0/2019/png/262531/1574087982421-449644d7-4d0d-48ef-9596-e537f561e64e.png" alt="image.png"  ></span></p>
+<p> </p>
+<div id="3DLiL"    ><hr></div>
+<p> </p>
+<h1 id="QmuLI">2. <a href="https://github.com/inkle/ink/blob/master/Documentation/WritingWithInk.md#part-2-weave" target="_blank" rel="noopener noreferrer">编织</a> weave</h1>
+<p> </p>
+<p>到目前为止，我们一直以最基础的方式构建故事的分支，从“选项”到“页面”。</p>
+<p>但这要求我们命名故事中的每个目的地且保持唯一性，可能会减慢编写速度并阻挠较小的分支。</p>
+<p>INK 拥有更为强大的语法，旨在简化始终向前的故事流（写起来像大多数的故事，而非计算机程序）。</p>
+<p> </p>
+<p>这种系统称为“编织”（weave），它由基础语法和选项语法，以及两个新功能构成：“收束标记 <code>-</code> ”，“选项与收束的嵌套”。</p>
+<p> </p>
+<h2 id="LLWSR">2.1 收束 gathers</h2>
+<p>收束（gathers） <code>-</code> 将小分支收回到一起。让我们看这个例子：</p>
+<p> </p>
+<div id="LumZN"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">“怎么了？”我的主人问。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    *   “我有些累。”[]我重复道。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        “确实，” 他答道。 “这太糟了。”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    *   “没事，先生！”[] 我回应道。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    *  我说，这次旅行真可怕。”[] 我不想再继续了。”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        “啊，” 他有些动容。 "你看起来很沮丧。明天，情况会好些的。"</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>在真正的游戏中，这三个选项都可能导致相同的结果，Fogg 先生离开了房间。我们可用收束来执行此操作，而无需创建任何新结点或新跳转。</p>
+<p> </p>
+<div id="pxFGN"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">“怎么了？”我的主人问。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    *   “我有些累。”[]我重复道。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        “确实，” 他答道。 “这太糟了。”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    *   “没事，先生！”[] 我回应道。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    *  我说，这次旅行真可怕。”[] 我不想再继续了。”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        “啊，” 他有些动容。 "你看起来很沮丧。明天，情况会好些的。"
+</span></span>    
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">    -   Fogg 先生离开了房间。</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>我们可将这些“收束和分支”串在一起，让故事始终向前运行。</p>
+<p> </p>
+<div id="dd86S"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== escape === 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">我跑出森林，狗跟在我后面。
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">    * 我检查了下珠宝[]，都还在我的钱包里，这感觉就像步入了春天。 &lt;&gt;
+</span></span>    
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">    * 我没停下来喘口气[]，继续向前跑。&lt;&gt;
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">    *   我欢呼了出来。 &lt;&gt;
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">-   路没多远了！Mackie 会发动引擎，然后我就安全了。//收束
+</span></span>  
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">    *   我来到路边四处张望[]。 你能相信吗？
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    * 我不该总是说，Mackie一直很可靠[]。他从未让我失望过。更确切地说，从来没有，直到那晚前。
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">-   路旁边是空的。 Mackie 不见了。//再次收束</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>这是最基本的编织。本节后面还详细介绍了编织的嵌套、包含选项和跳转、内部跳转、以及根据前面的经历来影响后续的内容。</p>
+<p> </p>
+<h3 id="dGPkT">编织的哲学</h3>
+<p>编织不仅仅是方便分支收束，也是一种强大的内容创作的方式。上面的示例就已有4种路线，甚至可能会更复杂。使用普通的跳转，必须点到点的检查分支，且很容易出错。</p>
+<p>通过编织，只需从顶部开始，就能运行到故事底部。在基本编织结构中，不会有跳转错误，编写的文本也很容易浏览。这意味着无需测试游戏中的所有分支，就能确保它们都能按预期工作。</p>
+<p>使用编织还可以轻松修改选项，拆开故事并插入其他选项，而无需重新设计任何流程。</p>
+<p> </p>
+<h2 id="oEO1M">2.2 嵌套</h2>
+<p>上面展示的编织是非常简单的“扁平”结构。不管玩家选什么，他们都要经历相同的回合数才能从上到下。但是，有时某些选项需要深或复。因此，编织可以嵌套。</p>
+<p> </p>
+<p>注意，编织的嵌套非常强大且紧凑，但你可能需要一些时间来适应！</p>
+<p> </p>
+<h3 id="RIa74">选项收束均可</h3>
+<p>选项嵌套看下方的场景：</p>
+<p> </p>
+<div id="aiN3V"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">- “好吧，Poirot？谋杀还是自杀？”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">*   “谋杀！”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">* “自杀！”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">-   Christie 女士片刻后放下手抄。台下的评委们都目瞪口呆。</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>提出的问题首选是“谋杀！” 或“自杀！”。如果 Poirot 宣布自杀，就没有其他事情可做了。但是在谋杀案中，还需要一个后续问题，“他怀疑是谁？”</p>
+<p>我们可以通过一组嵌套的子选项来添加新选项。通过使用两个星号（<code>**</code>）而非是一个星号，告诉 INK 这些新选项是另一个选择的一部分。</p>
+<p> </p>
+<div id="Ifajm"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">-  “好吧，Poirot？谋杀还是自杀？”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    *   “谋杀！”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        “那么，你怀疑谁？”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        * *  “日本探长！”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        * *  “船长 Hastings！”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        * *  “我自己！”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    * “自杀！”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">-   Christie 女士片刻后放下手抄。台下的评委们都目瞪口呆。</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>（用缩进显示嵌套关系是个不错的习惯，即使编译器不在乎这些。）</p>
+<p>如果我们想向另一条路线添加新的子选项，可以按类似的方式做。</p>
+<p> </p>
+<div id="KCDbn"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">-  “好吧，Poirot？谋杀还是自杀？”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    *   “谋杀！”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    “那么，你怀疑谁？”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        * *  “日本探长！”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        * *  “船长 Hastings！”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        * *  “我自己！” 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    * “自杀！”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    “真的吗，Poirot？你确定吗？
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        * *  “确定。”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        * *  “这很明显。”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">-   Christie 女士片刻后放下手抄。台下的评委们都目瞪口呆。</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>现在，无论前面选择什么，最后都能收到 Christie 女士的出场。</p>
+<p> </p>
+<p>有时不只是更多的选项，可能还有更多的剧情。我们可以用收束嵌套解决这个问题。</p>
+<p> </p>
+<div id="iUNED"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">-  “好吧，Poirot？谋杀还是自杀？”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    *   “谋杀！”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    “那么，你怀疑谁？”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        * *  “日本探长！”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        * *  “船长 Hastings！”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        * *  “我自己！” 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    - -  “你一定是在开玩笑！”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    * *  “朋友，我是认真的！”    
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    * *  “要是……” 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    * “自杀！”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    “真的吗，Poirot？你确定吗？
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        * *  “确定。”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        * *  “这很明显。”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">-   Christie 女士片刻后放下手抄。台下的评委们都目瞪口呆。</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>如果玩家选择谋杀，在这一分支后面会有两组选项，完全是“扁平”编织的。<span    ><img class="image lake-drag-image" title="1.gif" src="https://cdn.nlark.com/yuque/0/2019/gif/262531/1574171238244-e472627d-0e0d-4ae3-9389-795719dee627.gif" alt="1.gif"  ></span></p>
+<p> </p>
+<p>收束是直观的，但它们的行为很难说出来：通常在选择之后，故事会找到下一个非更低级的收束，并移动下来。基本思想是：选项将故事的支线分开，并通过收束将它们重新合在一起。（因此，这被称为“编织”！）</p>
+<p> </p>
+<h3 id="VyhpD">嵌套可以很多层</h3>
+<p>上面我们使用了两层嵌套。事实上，你深入嵌套多少层都没有限制。</p>
+<p> </p>
+<div id="JfJtT"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">-   “讲个故事，船长！”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    *   “好吧，你们这些海狗。 有个故事...”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        * *     “一个漆黑狂风暴雨的夜晚...”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">                * * *   “...船员们都很不安...”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">                        * * * *  “... 他们对船长说..."”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">                                * * * * *       “...给我们讲个故事，”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    *   “不，已经过了你们睡觉的时间。”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">-   作为一个人，船员们开始打起哈欠。</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>这样下去，整个嵌套都会变得难以阅读或操作。因此，如果子选项变得笨拙，跳转到新针脚上是一种好习惯。</p>
+<p>但至少在理论上，你可以把你整个故事都写成一个编织。</p>
+<p> </p>
+<p>再看一个更长的例子：</p>
+<p> </p>
+<div id="H2rwB"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">- 我看着 Fogg 先生
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">*   ... 我再也控制不住自己了。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    “先生，我们这次旅行的目的是什么？”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    “打赌，”他答道。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    * *     “打赌！”[]我回应道。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">            他点了点头。 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">            * * *   “但这确实很蠢！”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">            * * *   “这太糟了吧？”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">            - - -   他又点了点头。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">            * * *       “可是我们能赢吗？”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">                            “这正是我们要努力实现的。” 他回答道。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">            * * *       “我猜，赌注很明智？”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">                            “两万英镑，”他回答得直截了当。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">            * * *   我当时没在问他别的[]，他礼貌得咳嗽了一声，也没在对我说什么。 &lt;&gt;
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    * *     “啊[。”]，” 我回应道，不确定我在想什么。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    - -     之后， &lt;&gt;
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">*   ... 但我什么也没说[]。&lt;&gt; 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">- 我们在沉默中度过了这一天。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">- -&gt; END</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p><span class="lake-fontsize-12" style="font-size: 12px;">这里验证了之前的哲学：编织提供了一种紧凑的方式，在有大量分支大量选择的同时，故事依然能顺利的从头走到尾！</span></p>
+<p><span class="lake-fontsize-12" style="font-size: 12px;"> </span></p>
+<h2 id="jcdLX">2.3 编织定位 </h2>
+<p>有时候只是编织结构就足够了，但有时我们还需要更多的控制权。</p>
+<p>在默认情况下，编织中的内容没有地址或标签，这意味着它们不能被跳转到，也无法对其进行测试。在最基本的编织结构中，选项会改变玩家经历；可一旦走过编织，这些经历就会被遗忘。</p>
+<p> </p>
+<p>但如果我们想记录玩家的经历，我们可贴上“标签语法”<span class="lake-fontsize-11" style="font-size: 11px;">(label_name)</span>。</p>
+<p> </p>
+<h3 id="ABPo9">贴标签 (label_name)</h3>
+<p>任何层嵌套的收束都可以使用括号贴标签。<code>-  (top)</code></p>
+<p>贴上标签后，可以跳转至此或进行测试，就像结点和针脚一样。这意味着在编织中你可使用之前的语法来管理内容，同时保持清晰稳定的优点。</p>
+<p>选项也可以用括号贴标签，就像收束一样。标签括号应位于条件之前。</p>
+<p>这些地址也可用于条件测试中，这对测试“由其他选项解锁的选项”很有用。</p>
+<p> </p>
+<div id="TGGkU"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== meet_guard ===
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">卫兵在盯着你。
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">*   (greet) [打招呼]
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    “早。”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">*   (get_out) “让开[。”]，” 你对卫兵说。
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">-   “嗯，”卫兵回应道。
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">*   {greet}     “天气不错哈？” // 当你选打招呼
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">*   “咦？”[] 你回应道？
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">*   {get_out} [把他推到一旁]   // 当你威胁他时
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    你把他推到一旁。作为礼尚往来，卫兵直接拔出了剑。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    -&gt; fight_guard          // 跳出编织
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">-   “嗯。” 卫兵给你一个小纸袋。“太妃糖？”</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<h3 id="7Q9Ra">范围</h3>
+<p>在同一块编织内，你可只简单的写标签名称；到外面则需要写路径，像同个结点下的不同针脚：</p>
+<p> </p>
+<div id="M7QhH"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== knot ===
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">= stitch_one 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    - (gatherpoint) Some content.
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">= stitch_two 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    *   {stitch_one.gatherpoint} Option</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>或到另一个结点：</p>
+<p> </p>
+<div id="Igtua"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== knot_one ===
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">-   (gather_one)
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    * {knot_two.stitch_two.gather_two} Option
+</span></span>    
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== knot_two ===
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">= stitch_two 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    - (gather_two) 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        *   {knot_one.gather_one} Option</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<h3 id="mdDNZ">更多技巧</h3>
+<p>事实上，即使没有看到收束，INK 内的所有内容都是在编织中的。这意味着游戏中的所有选项都可贴标签，然后使用它的地址。特别的，这意味着你可以测试玩家为达到特定结果，选了哪个选项。</p>
+<p> </p>
+<div id="mz62Y"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== fight_guard ===
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">...
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">= throw_something 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">*   (rock) [丢石头] -&gt; throw
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">* (sand) [扔沙子] -&gt; throw
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">= throw
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">你向卫兵扔了{throw_something.rock:一块石头|一把沙子}。</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>我们能用贴标签创建内部循环，这是询问NPC的标准模式，<a href="https://inky-guard.netlify.com/" target="_blank" rel="noopener noreferrer">体验故事运行</a>。</p>
+<p> </p>
+<div id="g13Vi"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">- (opts)
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    *   “我从哪能弄到制服吗？”[] 你询问快乐的卫兵。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        “当然，在储物柜那。”他笑着说。 “不过可能不太合身。”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    *   “告诉我安防系统。”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        “他很老，” 卫兵向你保证。 “就像古董一样老。”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    *   “这里的狗？”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        “很多很多。” 卫兵答道，并咧嘴一笑。 “也都是饿鬼。”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    //要求玩家至少问一个问题
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    *   {loop} [问够了] 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        -&gt; done
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">- (loop) // 在警卫厌烦前循环几圈
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    { -&gt; opts | -&gt; opts | } //序列可变文本控制卫兵是否厌烦
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    他挠挠头，
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    “好吧，不能整天只站着说话。”他说到。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">- (done)
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    你谢过警卫，便离开了。</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>选项也可以被跳转到，就好像选择了该选项一样。因此，显示的内容会忽略 <code>[]</code> 中的文本，并如果该选项是一次性选项，它将被用掉。</p>
+<p> </p>
+<div id="0MC3K"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">- (opts)
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">*   [做鬼脸]
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    你做鬼脸，士兵就冲你来了！ -&gt; shove
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">*   (shove) [把警卫推到一旁] 你把卫兵推到一旁，但他回来了。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">*   {shove} [进入战斗] -&gt; fight_the_guard
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">-   -&gt; opts</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>选项中可直接收束。注意下方第一个选项下二级收束并没其收束作用，而是方便第二个选项的跳转。</p>
+<p> </p>
+<div id="6KgVo"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">*   “还好吧，先生”[]我问。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    - - (quitewell) “挺好的，”他答道。 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">*   “你填字游戏怎么样，先生？”[]我问。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    -&gt; quitewell 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">*   我什么也没说[]，我的主人什么也没说。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">-   我们又感到了一次倍感亲切的沉默。</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<div id="lkymI"    ><hr></div>
+<blockquote>
+<p>后面的内容较为复杂，本文只选取了部分简单的内容进行翻译。如有兴趣请浏览<a href="https://github.com/inkle/ink/blob/master/Documentation/WritingWithInk.md" target="_blank" rel="noopener noreferrer">官方文档</a>。</p>
+</blockquote>
+<p> </p>
+<h1 id="h34Xc">3. <a href="https://github.com/inkle/ink/blob/master/Documentation/WritingWithInk.md#part-3-variables-and-logic" target="_blank" rel="noopener noreferrer">变量与逻辑</a></h1>
+<p>到目前为止，我们已经根据玩家看到的东西，做出了条件文本与条件选项。</p>
+<p> </p>
+<p>INK 还支持临时变量与全局变量，存储数字和内容数据，甚至故事流命令；逻辑功能也很齐全，并包含一些额外的结构，以帮助组织更复杂的故事结构。</p>
+<h2 id="2HBtl">3.1 <a href="https://github.com/inkle/ink/blob/master/Documentation/WritingWithInk.md#1-global-variables" target="_blank" rel="noopener noreferrer">全局变量</a> global variables</h2>
+<p>最强大的变量，储存游戏某些独特状态属性的变量，对每个故事来说可能都最有用的——从主人公口袋里的钱，到主人公精神状态的SAN值。</p>
+<p><span class="lake-fontsize-12" style="font-size: 12px;"><br></span>这种变量称为全局变量（<code>global variables</code>），因为可以从故事中的任何位置访问（包括设置和读取）它。（传统情况下，编程会试图避免这种情况，因为它可能会相互冲突。但故事有所不同，有一些事物贯穿始终，全局需要并一直存在。 ）</p>
+<p> </p>
+<p>全局变量可以通过语句 <span class="lake-fontsize-11" style="font-size: 11px;">VAR</span> 定义在任何地方。给它们指定一个初始值，定义它们是哪种类型的变量：整数、浮点（十进制）、内容或故事的地址。</p>
+<p> </p>
+<div id="6DidE"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">VAR knowledge_of_the_cure = false
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">VAR players_name = "Emilia"
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">VAR number_of_infected_people = 521
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">VAR current_epilogue = -&gt; they_all_die_of_the_plague</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>我们可以控制全局变量以控制选项，并控制条件文本。方式与之前看到的类似。</p>
+<p> </p>
+<div id="gZGyI"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== the_train ===
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    火车颠簸了一下。 { mood &gt; 0:我觉得还好，没介意奇怪的颠簸|这超出了我所能承受的}。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    *   { not knows_about_wager } “但是，先生，我们为什么要旅行？”[] 我问道。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    *   { knows_about_wager} 我考虑了我们有些离奇的冒险[]。这可能吗？</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p><span class="lake-fontsize-12" style="font-size: 12px;">变量的值可用类似于序列和条件文本的语法显示出来，这在调试时也很有用：</span></p>
+<p> </p>
+<div id="dbYJV"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">VAR friendly_name_of_player = "Jackie"
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">VAR age = 23
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">我叫 Jean Passepartout，但朋友都叫我 {friendly_name_of_player}。 我{age}岁了。</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>你可能注意到，上面我们将变量称为能够包含“内容”而非“字符串”。这是有意的，因为在 INK 中定义的字符串能包含 INK ，尽管它始终会计算为字符串（很赞）。</p>
+<p> </p>
+<div id="fveFA"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">VAR a_colour = ""
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">~ a_colour = "{~红色|蓝色|绿色|黄色}" 
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">{a_colour} </span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>输出“红色，蓝色，绿色或黄色”中的一种颜色。注意，一旦输出了这样的内容，其值就是“确定的”。（量子状态崩溃。）因此，下面内容不会产生有趣的效果。（如果你希望这样做，请使用可变文本！）</p>
+<p> </p>
+<div id="JYyBF"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">呆子撞到了你，你眼冒金星， {a_colour}和{a_colour}闪烁。</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p><span    ><img class="image lake-drag-image" title="image.png" src="https://cdn.nlark.com/yuque/0/2019/png/262531/1574253169542-a6dd40b9-9eb0-4009-9398-37531144947c.png" alt="image.png"  ></span></p>
+<p> </p>
+<p>这也是为什么 <code>VAR a_colour = "{~red|blue|green|yellow}"</code> 是不推荐的，它会影响到你的整个游戏。</p>
+<p> </p>
+<h2 id="9NAjD">3.2 逻辑运算 logic</h2>
+<p>显然，我们的全局变量并非为常量，因此我们需要一种语法来改变它们。</p>
+<p>默认情况下，INK 中的任何文本都直接显示到屏幕上。因此我们用 <code>~</code> 来标记表示某行是在进行数值工作。</p>
+<p> </p>
+<p><span class="lake-fontsize-12" style="font-size: 12px;">以下均是为变量分配值：</span></p>
+<p><span class="lake-fontsize-12" style="font-size: 12px;"> </span></p>
+<div id="EmPpC"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== set_some_variables ===
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    ~ knows_about_wager = true  
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    ~ x = (x * x) - (y * y) + c
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    ~ y = 2 * x * y</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>以下是测试用的条件：</p>
+<p> </p>
+<div id="o7BB1"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">{ x == 1.2 }
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">{ x / 2 &gt; 4 }
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">{ y - 1 &lt;= x * x }</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>INK 支持数学四则运算（<code>+</code>，<code>-</code>，<code>*</code>和<code>/</code>），以及 <span class="lake-fontsize-11" style="font-size: 11px;">%</span> （或 <code>mod</code> ）进行求余。还支持 <code>POW</code> （幂）运算：</p>
+<p> </p>
+<div id="CWDq0"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">{POW(3, 2)} is 9. 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">{POW(16, 0.5)} is 4. </span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>还可以用 <code>RANDOM</code> 函数来生成随机整数。RANDOM 就像掷骰子，因此最小值和最大值都包括在内。（ <code>temp</code> 为<a href="#A1UDf">临时变量</a>）</p>
+<p> </p>
+<div id="knr4f"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">~ temp dice_roll = RANDOM(1, 6) 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">~ temp lazy_grading_for_test_paper = RANDOM(30, 75)  
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">~ temp number_of_heads_the_serpent_has = RANDOM(3, 8)</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>可用上文的 <a href="#P9O3i">SEED_RANDOM()</a> 进行测试。</p>
+<p> </p>
+<p>INK 作为文字游戏引擎，奇怪的是并没有那么多字符串查询（string queries）方式。这有三种基本查询，相等，不相等和子字符串。以下全部返回 true：</p>
+<p> </p>
+<div id="FASjE"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">{ "Yes, please." == "Yes, please." }
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">{ "No, thank you." != "Yes, please." }
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">{ "Yes, please" ? "ease" }</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<h2 id="lrtZc">3.3 <a href="https://github.com/inkle/ink/blob/master/Documentation/WritingWithInk.md#3-conditional-blocks-ifelse" target="_blank" rel="noopener noreferrer">条件块</a> if/else</h2>
+<p>我们已经看到了用于控制选项和故事内容的条件内容，而 <code>ink</code> 还提供了与常规 <code>if/else - if/else</code> 结构等效的功能。</p>
+<p> </p>
+<p>单纯使用 <code>if</code> —— 简单而有效的判断：</p>
+<p><code>if</code> 语法的判断条件，是从开始到现在为止产生的条件线索，而 <code>{</code>... <code>}</code> 语法表示正在测试某些内容。</p>
+<p> </p>
+<div id="3As7x"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">{ x &gt; 0:
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    ~ y = x -1
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">}</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>或者加上其他条件 <code>else</code> :</p>
+<p> </p>
+<div id="IJLuF"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">{ x &gt; 0:
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    ~ y = x - 1
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">- else:
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    ~ y = x + 1
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">}</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>扩展 <code>if/else - if/else</code> 条件块：</p>
+<p>上面的语法也可更改形式为另一种结构方式，类似于编程语言中的 <code>switch</code> 语句格式。</p>
+<p> </p>
+<div id="kEGMb"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">{ 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    - x &gt; 0:
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        ~ y = x - 1
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    - else:
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        ~ y = x + 1
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">}</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>在此格式基础之上进一步拓展，我们还可以实现 <code>else-if</code> 形式的条件判断：</p>
+<p> </p>
+<div id="tTKJY"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">{ 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    - x == 0:
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    ~ y = 0
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    - x &gt; 0:
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        ~ y = x - 1
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    - else:
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        ~ y = x + 1
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">}</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p><span class="lake-fontsize-11" style="font-size: 11px;">（请注意，与其他所有内容一样，空格仅出于</span><span class="lake-fontsize-11" style="font-size: 11px;">可读性考虑，没有语法含义。）</span></p>
+<p><span class="lake-fontsize-12" style="font-size: 12px;"> </span></p>
+<p><strong>Switch Block （开关座：选择性判断语句）：</strong></p>
+<p>实际上 ink 的确有和其他编程语言中 <code>switch</code> 类似的语句。</p>
+<p> </p>
+<div id="Lt6m6"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">{ x:
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    - 0:    zero
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    - 1:    one
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">  - 2:  two
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">  - else:   lots
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">}</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p><strong>示例：关联上下文内容</strong></p>
+<p>请注意，这里的判断条件除了可以使用变量之外，还可以使用玩家是否经历过结点作为条件，并且这种条件使用频繁，例如要做一些与当前游戏状态相关的内容：</p>
+<p> </p>
+<div id="WiNjN"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== dream ===
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    {
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        - visited_snakes &amp;&amp; not dream_about_snakes:
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">            ~ fear++
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">            -&gt; dream_about_snakes
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">        - visited_poland &amp;&amp; not dream_about_polish_beer:
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">            ~ fear--
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">            -&gt; dream_about_polish_beer 
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">        - else:
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">            // 清晨的梦只是梦境
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">            -&gt; dream_about_marmalade
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    }</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>此语法具有易于拓展的优势，优先选择使用此语法。</p>
+<p> </p>
+<p><strong>条件块中不仅限于逻辑运算</strong></p>
+<p>条件块可以用于控制故事内容以及发展走向：</p>
+<p> </p>
+<div id="jg8ib"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">我望着 Fogg 先生。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">{ know_about_wager:
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    &lt;&gt; “但你一定不是认真的吧？” 我诧异道。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">- else:
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    &lt;&gt; “但这次旅行一定是有一个原因，”我说。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">}
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">他什么也没有回答，只是像昆虫学家研究他最新的发现那样，一丝不苟地研究他的报纸。</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>你甚至可以将选项放在条件块中：</p>
+<p> </p>
+<div id="JEdC7"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">{ door_open:
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    *   我大步走出车厢 [] 并且我仿佛听见我的主人在低声地自言自语。             -&gt; go_outside 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">- else:
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    *       我请求离开 [] 并且 Fogg 先生显得很惊奇。   -&gt; open_door 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    *   我站起来打开了门 [] 。Fogg 先生似乎对这种小小的反抗并没有感到不安。 -&gt; open_door
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">}</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>但是请注意，上面的示例中没有出现编织语法和嵌套语法不是偶然：为了避免嵌套带来的内容混淆，不允许在条件块中加入 <code>gathers</code> 收束点。</p>
+<p> </p>
+<p><strong>实现多种特殊功能的多行块 Multiline blocks</strong></p>
+<p>它们是另一种特殊的代码块，可以分别实现不同的功能：</p>
+<p> </p>
+<div id="x2yXp"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">// 顺序执行：根据每次的跳转依次执行，全部执行后持续执行显示最后一行
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">{ stopping:
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    -   我进入了赌场。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    -   我又一次进入了赌场。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    -   我又一次走了进去。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">}
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">// 随机洗牌：随机显示执行其中一行
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">在桌子上，我画了一张卡片。 &lt;&gt;
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">{ shuffle:
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    -   红心王牌。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    -   黑桃王牌。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    -   方块2。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        “你这次输了！”赌场庄家欢叫着。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">}
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">// 循环执行：顺序显示执行，并循环如此
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">{ cycle:
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    -   我屏住呼吸。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    -   我不耐烦地等着。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    -   我停顿了一下。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">}
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">// 一次执行：顺序显示执行，每个分支只显示执行一次，全部显示执行后不再显示执行
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">{ once:
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    -   我的运气好吗？
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    -   我能赢吗？
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">}</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p><span    ><img class="image lake-drag-image" title="Multiline_blocks.gif" src="https://cdn.nlark.com/yuque/0/2019/gif/447250/1575183925923-4d586d7c-a2e8-438f-af60-02521431da76.gif" alt="Multiline_blocks.gif"  ></span></p>
+<p> </p>
+<p><strong>高级：修改的随机洗牌</strong></p>
+<p>上面的随机洗牌，实际上是 <code>shuffle cycle</code> 循环随机洗牌；它每次随机选择内容，显示内容，然后重新随机显示内容，显示内容。</p>
+<p>随机洗牌还有两种方式：</p>
+<p><code>shuffle once</code> 随机显示执行内容，只显示执行一次，之后不会再执行</p>
+<p> </p>
+<div id="TJyDM"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">{ shuffle once: 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    -   太阳很晒。 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    - 天气很热。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">}</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p><code>shuffle stopping</code> 随机显示执行内容（最后一条除外），当其他项全部随机执行完毕后，将一直保持在最后一条</p>
+<p> </p>
+<div id="mxvsp"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">{ shuffle stopping:
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    - 一辆银色宝马车呼啸而过。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    -   一辆亮黄色的野马车在转弯。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    - 这里有很多车。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">}</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<h2 id="A1UDf">3.4 <a href="https://github.com/inkle/ink/blob/master/Documentation/WritingWithInk.md#4-temporary-variables" target="_blank" rel="noopener noreferrer">临时变量</a> Temporary Variables</h2>
+<p><strong>临时变量用于临时计算</strong></p>
+<p>有时，全局变量无法满足我们的临时需求，这时候 ink 为我们提供了临时变量 <code>Temporary Variables</code> 。</p>
+<p> </p>
+<div id="jraqq"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== near_north_pole ===
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    ~ temp number_of_warm_things = 0
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    { blanket:
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        ~ number_of_warm_things++
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    }
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    { ear_muffs:
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        ~ number_of_warm_things++
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    }
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    { gloves:
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        ~ number_of_warm_things++
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    }
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    { number_of_warm_things &gt; 2:
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        尽管下雪了，但我还是感到无比舒适。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    - else:
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        那天晚上我感觉比以往任何时候都冷。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    }</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>临时变量只在其定义的当前结点生效，离开结点后临时变量将被丢弃。</p>
+<p> </p>
+<p><strong>结点和针脚可以拥有参数</strong></p>
+<p> </p>
+<p>临时变量有一种非常实用的形式，就是作为传递给任意结点或针脚的一个参数。</p>
+<p> </p>
+<div id="MMFjx"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">*   [Accuse Hasting]
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        -&gt; accuse("Hastings")
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">*   [Accuse Mrs Black]
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        -&gt; accuse("Claudia")
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">*   [Accuse myself] 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        -&gt; accuse("myself")
+</span></span>        
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== accuse(who) ===
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    "我控诉 {who}!" 波洛宣布。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    “真的吗？” Japp 回道。 “{who == "myself":你要这么做？|{who}？}”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    “为什么不可以？” 波洛回击道。 </span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>如果要将临时变量从一个针脚传递给另一个针脚，就要用参数。</p>
+<p> </p>
+<p><strong>示例：递归节点中的定义</strong></p>
+<p>临时变量可以放心的在递归中使用（与全局变量不同，全局变量改变后递归过程中都会变为改变后的值），因此可以执行下面的内容：</p>
+<p> </p>
+<div id="CkaU2"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">-&gt; add_one_to_one_hundred(0, 1)
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== add_one_to_one_hundred(total, x) ===
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    ~ total = total + x
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    { x == 100:
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        -&gt; finished(total)
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    - else:
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        -&gt; add_one_to_one_hundred(total, x + 1)
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    }   
+</span></span>    
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== finished(total) ===
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    “结果是 {total}！” 你宣布。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    高斯惊恐地盯着你。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    -&gt; END</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>实际上，这种递归节点中的定义非常实用，也因此 <code>ink</code> 中提供了一种特殊的结点，一个 <code>function</code> 。它有一定的限制，并且可以返回一个值，请参阅以下部分。</p>
+<p> </p>
+<p><strong>高级：将 </strong><strong><code>divert targets</code></strong><strong> （跳转目标）作为参数传递</strong></p>
+<p>结点、针脚的地址也是一种类型的值，用 <code>-&gt;</code> 符号表示，可以传递与存储。因此以下的内容是正常的，并且非常有用：</p>
+<p> </p>
+<div id="7gGuS"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== sleeping_in_hut ===
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    你躺下闭上了眼睛。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    -&gt; generic_sleep (-&gt; waking_in_the_hut)
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">===  generic_sleep (-&gt; waking)
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    你偶尔会做梦之类的。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    -&gt; waking
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== waking_in_the_hut
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    你重新站起来，准备继续你的旅程。</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>要注意的是，在 <code>generic_sleep</code> 的定义中，是有 <code>-&gt;</code> 符号存在的。因为这里是作为一个参数值存在，如果不加 <code>-&gt;</code> 符号，就会变成下面这样：</p>
+<p> </p>
+<div id="A8saQ"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== sleeping_in_hut ===
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    你躺下闭上了眼睛。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    -&gt; generic_sleep (waking_in_the_hut)</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>这种情况下， <code>ink</code> 会将 <code>waking_in_the_hut</code> 的结点数字传递给 <code>sleeping</code> 结点，并且尝试跳转到此结点。</p>
+<p> </p>
+<h2 id="Sq6x3">3.5 <a href="https://github.com/inkle/ink/blob/master/Documentation/WritingWithInk.md#5-functions" target="_blank" rel="noopener noreferrer">函数</a> Functions</h2>
+<h2 id="KQYr4">3.6<a href="https://github.com/inkle/ink/blob/master/Documentation/WritingWithInk.md#4-temporary-variables" target="_blank" rel="noopener noreferrer"> 常数</a> Constants</h2>
+<p> </p>
+<div id="mSNNL"    ><hr></div>
+<h2 id="4J3zl">4.1 <a href="https://github.com/inkle/ink/blob/master/Documentation/WritingWithInk.md#1-tunnels" target="_blank" rel="noopener noreferrer">隧道</a>（？）tunnels</h2>
+<blockquote>
+<p>狼也不知道这里 <code>tunnels</code> 翻译成什么更恰当。无端的想起马里奥中可以往返隐藏区域的“管道”。但最后决定还是直译成了“隧道”。</p>
+<p> </p>
+<p><span    ><img class="image lake-drag-image" title="image.png" src="https://cdn.nlark.com/yuque/0/2019/png/262531/1574257344388-5e62b910-d25d-4320-9e05-0efcb7af7aed.png" alt="image.png"  ></span></p>
+</blockquote>
+<p> </p>
+<p>INK 故事的默认结构是“扁平”的树状结构，分支又重新收束回一起，也许还有循环，但故事始终位于“某个位置”。</p>
+<p> </p>
+<p>但是这种扁平结构会使某些事情变得困难：想象一个游戏，可能发生以下的相互作用：</p>
+<p> </p>
+<div id="Osn87"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== crossing_the_date_line ===
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">*   “先生！”[] 我突然感到震惊。"我才意识到，我们已经穿过了国际日期变更线！"
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">-   Fogg 先生轻轻抬起了眉毛。“我已经调整过了。”
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">*   我擦了擦额头上的汗水[]。松了口气！
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">* 我轻轻的点头[]。他当然会做的。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">* 我在心里抱怨[]。 我又被小看了一次。</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>...但它可能发生在故事中的几个不同地方。我不想为不同的地方写相同内容，但是当内容完成后，它还需要知道返回到哪里。我们可以使用参数来做到这一点：</p>
+<p> </p>
+<div id="ySbVC"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== crossing_the_date_line(-&gt; return_to) ===
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">...
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">-       -&gt; return_to 
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">...
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== outside_honolulu ===
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">我们到了Honolulu 最大的岛。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">- (postscript) 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        -&gt; crossing_the_date_line(-&gt; done)
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">- (done)
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        -&gt; END 
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">...
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== outside_pitcairn_island ===
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">船在水上驶向小岛。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">- (postscript) 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        -&gt; crossing_the_date_line(-&gt; done)
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">- (done)
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        -&gt; END </span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>这两个位置都调用并执行相同的故事片段，一旦完成，它们就会回到下一步要去的地方。</p>
+<p> </p>
+<p>但如果这个“故事的部分”更复杂怎么办？如果跨越多个结点怎么办？使用上面的方法，我们必须不断地将“ return-to”参数从一个结点传递到另一个结点，以确保我们始终知道该返回的位置。</p>
+<p>因此，INK 把跳转和新功能结合到起来加语言中，其功能类似于子程序，称为"隧道"（tunnels）。</p>
+<p> </p>
+<p>隧道的语法看起来很像跳转，末尾还有另一个跳转：</p>
+<p> </p>
+<div id="7xzI6"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">-&gt; crossing_the_date_line -&gt;</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>这意味着运行一个“crossing_the_date_line 的故事”，然后从这继续。</p>
+<p>在隧道内部，语法展示进行了简化：用 <code>-&gt;-&gt;</code> 语句结束隧道，实质上意味着“继续”。</p>
+<p> </p>
+<div id="B9PbI"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== crossing_the_date_line === 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">// 这里是隧道！
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">...
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">-   -&gt;-&gt;</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>注意，隧道结点和普通的结点不同，编译器将不会检查隧道是否真的以“-&gt;-&gt;”语句结尾，除非在运行时。因此，您需要仔检查进出隧道的跳转。</p>
+<p> </p>
+<p>隧道可串在一起，也可在普通跳转上：</p>
+<p> </p>
+<div id="rJE1V"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">... 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">// 这里运行了隧道，然后跳转到 done
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">-&gt; crossing_the_date_line -&gt; done
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">...
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">... 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">//这里运行了第一个隧道，第二个隧道，然后跳转到 done
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">-&gt; crossing_the_date_line -&gt; check_foggs_health -&gt; done
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">...</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>隧道可以嵌套，因此以下内容也行：</p>
+<p> </p>
+<div id="hjSeL"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== plains ===
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">= night_time 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    脚边是深色柔软的草丛。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    +   [休息]
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        -&gt; sleep_here -&gt; wake_here -&gt; day_time
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">= day_time 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    到了该动身的时间了。
+</span></span>    
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== wake_here ===
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    你随太阳一同醒来。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    +   [吃些东西]
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        -&gt; eat_something -&gt;
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    +   [该动身了]
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    -   -&gt;-&gt;
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== sleep_here ===
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    你躺下并闭上双眼。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    -&gt; monster_attacks -&gt; 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    接着该睡觉了。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    -&gt; dream -&gt;
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    -&gt;-&gt;</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+</div>
+</div>
 </div>
             ]]>
         </content>
     </entry>
     <entry>
-        <title>狼血与酒</title>
+        <title>发布到网页</title>
         <author>
             <name>Legacy</name>
         </author>
-        <link href="https://fur2.now.sh/lang-xie-yu-jiu/"/>
-        <id>https://fur2.now.sh/lang-xie-yu-jiu/</id>
-            <category term="黑暗"/>
-            <category term="狼"/>
+        <link href="https://fur2.now.sh/fa-bu-dao-wang-ye/"/>
+        <id>https://fur2.now.sh/fa-bu-dao-wang-ye/</id>
 
-        <updated>2020-01-18T15:12:37+08:00</updated>
+        <updated>2020-01-18T17:13:31+08:00</updated>
             <summary>
                 <![CDATA[
-                     士兵们来到边境有一段日子了。那里真的和我们这里有很多不一样的地方，比如那里的酒馆竟然是一头年轻的狼在卖酒，嗯……两脚站立的那种狼，银色的，很罕见的那种。 当然，这并不是重要的地方，对士兵们来说，酒才是重要的，谁卖并不重要。万幸的是，那头狼居然听得懂些人话，以及他卖的酒，并不是士兵想象中边境地带荒凉且粗制滥造的酒。那狼卖的酒不仅烈，而且品起来有股奇特的野性，让人回味无穷。 很快这件事在士兵中传开了。有位见多识广的老兵说，是因为这酒里参了狼血的缘故。 士兵们一开始都是不信的，毕竟无聊时也抓过狼，那些畜牲的血又腥又苦，还有股土味，根本无法下咽。 老兵问他们，你们有尝过家养的狼的血吗？士兵们虽然明白老兵的意思，但还是有些半信半疑。 于是有一天，士兵们约好了，一起来到了狼的那家小酒馆，这把狼吓了一大跳。士兵到是无所谓，把狼拉过来一起喝酒。 狼并不是很情愿，但最终还是被士兵们转了好几圈，一人灌了一杯，有了些醉意。 士兵问狼还有酒吗？狼说需要现调。 于是狼搬来了一只酒桶，取来一盏酒杯，从身上摸出来了一把银制的小匕首。那把匕首看起来有几分古朴的成色，或许是祖传的。 狼右手握住匕首，娴熟的划了下左手手心，把左手伸到了酒杯上方，握紧了拳头。殷红的鲜血顺着狼手上银白色的毛发留下，缓缓落进了准备好的酒杯里，不多不少，刚好半杯的样子。 最后，狼把半杯狼血倒进了酒桶里……士兵们都信了。 士兵们邀请狼狼尝尝他们带来的酒，狼尝一小口就倒在桌子上了…… 后来我见到狼是在一个写着军需品的仓库里，它被吊在一个不起眼的角落里，神志不清呼吸微弱的半裸着，身上的毛有些发黄。 走近后才能看清，狼身上被笔画的一块一块的，每一块标有不同的记号。听士兵说，这是为了公平起见，大家一开始按狼身上肌肉分的，那是你的或他放血的地方。过了些日子，狼的肌肉萎缩了，因此只能用笔画记号来区分了。 不过最后事情还是暴露了，听说不止哪个蠢货喂了狼致幻的草药，喝了酒的士兵个个都神志不清蠢话连篇，被军法处置了，狼也从此不见了踪影。 从边境有幸回来的士兵，据说后来也悄悄养过狼，可是狼哪有那么好养呢？于是他们都陆陆续续的戒酒了。 完
+                    发布到网页*原文此部分介绍的是发布到 itch.io ，但好消息是，你几乎可以把 Inky 导出的 Web 托管到任何可以放静态网页的地方，如 netlify，github page，coding…… 和你的服务器上。 
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <div>
-<div> </div>
-<div>士兵们来到边境有一段日子了。那里真的和我们这里有很多不一样的地方，比如那里的酒馆竟然是一头年轻的狼在卖酒，嗯……两脚站立的那种狼，银色的，很罕见的那种。</div>
-<br>
-<div>当然，这并不是重要的地方，对士兵们来说，酒才是重要的，谁卖并不重要。万幸的是，那头狼居然听得懂些人话，以及他卖的酒，并不是士兵想象中边境地带荒凉且粗制滥造的酒。那狼卖的酒不仅烈，而且品起来有股奇特的野性，让人回味无穷。</div>
-<br>
-<div>很快这件事在士兵中传开了。有位见多识广的老兵说，是因为这酒里参了狼血的缘故。</div>
-<br>
-<div>士兵们一开始都是不信的，毕竟无聊时也抓过狼，那些畜牲的血又腥又苦，还有股土味，根本无法下咽。</div>
-<br>
-<div>老兵问他们，你们有尝过家养的狼的血吗？士兵们虽然明白老兵的意思，但还是有些半信半疑。</div>
-<br>
-<div>于是有一天，士兵们约好了，一起来到了狼的那家小酒馆，这把狼吓了一大跳。士兵到是无所谓，把狼拉过来一起喝酒。</div>
-<br>
-<div>狼并不是很情愿，但最终还是被士兵们转了好几圈，一人灌了一杯，有了些醉意。</div>
-<br>
-<div>士兵问狼还有酒吗？狼说需要现调。</div>
-<br>
-<div>于是狼搬来了一只酒桶，取来一盏酒杯，从身上摸出来了一把银制的小匕首。那把匕首看起来有几分古朴的成色，或许是祖传的。</div>
-<br>
-<div>狼右手握住匕首，娴熟的划了下左手手心，把左手伸到了酒杯上方，握紧了拳头。殷红的鲜血顺着狼手上银白色的毛发留下，缓缓落进了准备好的酒杯里，不多不少，刚好半杯的样子。</div>
-<br>
-<div>最后，狼把半杯狼血倒进了酒桶里……士兵们都信了。</div>
-<br>
-<div>士兵们邀请狼狼尝尝他们带来的酒，狼尝一小口就倒在桌子上了……</div>
-<br>
-<div>后来我见到狼是在一个写着军需品的仓库里，它被吊在一个不起眼的角落里，神志不清呼吸微弱的半裸着，身上的毛有些发黄。</div>
-<br>
-<div>走近后才能看清，狼身上被笔画的一块一块的，每一块标有不同的记号。听士兵说，这是为了公平起见，大家一开始按狼身上肌肉分的，那是你的或他放血的地方。过了些日子，狼的肌肉萎缩了，因此只能用笔画记号来区分了。</div>
-<br>
-<div>不过最后事情还是暴露了，听说不止哪个蠢货喂了狼致幻的草药，喝了酒的士兵个个都神志不清蠢话连篇，被军法处置了，狼也从此不见了踪影。</div>
-<br>
-<div>从边境有幸回来的士兵，据说后来也悄悄养过狼，可是狼哪有那么好养呢？于是他们都陆陆续续的戒酒了。</div>
-<br>
-<div>完</div>
+                <h1 id="5kiy3">发布到网页*</h1>
+<p>原文此部分介绍的是发布到 <code>itch.io</code> ，但好消息是，你几乎可以把 Inky 导出的 Web 托管到任何可以放静态网页的地方，如 netlify，github page，coding…… 和你的服务器上。</p>
+<p> </p>
+<h2 id="o2sd4">Netlify*</h2>
+<ol start="1">
+<li>注册 <a href="https://app.netlify.com/" target="_blank" rel="noopener noreferrer">netlify</a> ；</li>
+<li>将你的故事文件夹拖动到“Want to deploy a new site without connecting to Git?Drag and drop your site folder here”的框里。显示绿色的发布网址后，即发布成功，点击网址访问你的故事。</li>
+</ol>
+<p> </p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>进阶文档</title>
+        <author>
+            <name>Legacy</name>
+        </author>
+        <link href="https://fur2.now.sh/jin-jie-wen-dang/"/>
+        <id>https://fur2.now.sh/jin-jie-wen-dang/</id>
+
+        <updated>2020-01-18T17:22:40+08:00</updated>
+            <summary>
+                <![CDATA[
+                     原文此部分介绍的是发布到 itch.io ，但好消息是，你几乎可以把 Inky 导出的 Web 托管到任何可以放静态网页的地方，如 netlify，github page，coding…… 和你的服务器上。 看一下我们刚发布的 example 。 将网页打包成安装包是件很容易的事。 你可尝试用 HBuilderX 创建“5+App”项目进行云打包，这里不再赘述了。 另一种思路，也可以选择创建“Wap2App”项目，将托管的网页设成“wap站首页地址”，更新与打包更容易些。 为网页插入评论系统里是容易的，同理为 Inky 生成的网页插入评论系统也是容易的。 这里有一个将 Gitlak 评论系统插入的 例子，点我运行体验。 当然如果你愿意，甚至还能插入 DaoVoice 这样的客服系统。 想知道有多少人玩，最简单的方式就是插入统计代码。方法和插入到网页一样，这里不再赘述了。 你已经完成了你的杰作！是时候与世界分享它了。 你可以选择将文件上传到允许你托管网页的任何地方，但我们建议 itch.io，因为它是一个拥有独立游戏开发者的伟大社区，它是少数几个允许你上传纯&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h1 id="RFLqQ"> </h1>
+<p>原文此部分介绍的是发布到 <code>itch.io</code> ，但好消息是，你几乎可以把 Inky 导出的 Web 托管到任何可以放静态网页的地方，如 netlify，github page，coding…… 和你的服务器上。</p>
+<p> </p>
+<h2 id="o2sd4">Netlify*</h2>
+<ol start="1">
+<li>注册 <a href="https://app.netlify.com/" target="_blank" rel="noopener noreferrer">netlify</a> ；</li>
+<li>将你的故事文件夹拖动到“Want to deploy a new site without connecting to Git?Drag and drop your site folder here”的框里。显示绿色的发布网址后，即发布成功，点击网址访问你的故事。</li>
+</ol>
+<p> </p>
+<p><span    ><img class="image lake-drag-image" title="7.gif" src="https://cdn.nlark.com/yuque/0/2019/gif/262531/1574053609287-4409cb8a-344d-44e3-ac5f-25444a6c39a0.gif" alt="7.gif"  ></span></p>
+<p> </p>
+<ol start="3">
+<li>点击 Domain Setting ，可修改你故事的网址。</li>
+</ol>
+<p> </p>
+<p><span    ><img class="image lake-drag-image" title="8.gif" src="https://cdn.nlark.com/yuque/0/2019/gif/262531/1574054000386-e5e3b045-8a56-4ff0-83f2-bae3b0af693c.gif" alt="8.gif"  ></span></p>
+<p> </p>
+<ol start="4">
+<li>如需更新故事，选择 Depolys ，将更新后的文件夹拖入框里即可。（事实上，你一开始也可以通过连接Github，完成全自动的更新发布，这里不再赘述了。)</li>
+</ol>
+<p> </p>
+<p>看一下我们刚发布的 <a href="https://inky-example.netlify.com/" target="_blank" rel="noopener noreferrer">example</a> 。<span    ><img class="image lake-drag-image" src="https://cdn.nlark.com/yuque/0/2019/svg/262531/1574054336160-43d81bb4-054b-40ef-aa7d-97ce369fdec3.svg"  ></span></p>
+<p> </p>
+<h2 id="V22ir">App*</h2>
+<p>将网页打包成安装包是件很容易的事。</p>
+<p>你可尝试用 <a href="https://www.dcloud.io/hbuilderx.html" target="_blank" rel="noopener noreferrer">HBuilderX</a> 创建“5+App”项目进行云打包，这里不再赘述了。</p>
+<p>另一种思路，也可以选择创建“Wap2App”项目，将托管的网页设成“wap站首页地址”，更新与打包更容易些。</p>
+<p> </p>
+<h2 id="DwDp2">评论系统*</h2>
+<p>为网页插入评论系统里是容易的，同理为 Inky 生成的网页插入评论系统也是容易的。</p>
+<p>这里有一个将 <a href="https://github.com/gitalk/gitalk/blob/master/readme-cn.md" target="_blank" rel="noopener noreferrer">Gitlak</a> 评论系统插入的 <a href="https://github.com/volfclub/inkytalk" target="_blank" rel="noopener noreferrer">例子</a>，<a href="https://inky-gitalk.netlify.com/" target="_blank" rel="noopener noreferrer">点我运行体验</a>。</p>
+<p>当然如果你愿意，甚至还能插入 <a href="http://www.daovoice.io/" target="_blank" rel="noopener noreferrer">DaoVoice</a> 这样的客服系统。</p>
+<p> </p>
+<h2 id="dAsS1">统计代码*</h2>
+<p>想知道有多少人玩，最简单的方式就是插入统计代码。方法和插入到网页一样，这里不再赘述了。</p>
+<p> </p>
+<h2 id="WyqMs">itch.io</h2>
+<p>你已经完成了你的杰作！是时候与世界分享它了。</p>
+<p>你可以选择将文件上传到允许你托管网页的任何地方，但我们建议 <strong>itch.io，</strong>因为它是一个拥有独立游戏开发者的伟大社区，它是少数几个允许你上传纯 Web 内容的地方之一，最重要的是，它是免费的！如果你愿意，你甚至可以选择出售你的内容。</p>
+<p>itch.io 还允许你上传游戏内容为私有草稿，以便在发布之前测试该过程。</p>
+<p>最后，<a href="https://itch.io/jam/inkjam" target="_blank" rel="noopener noreferrer">Inkjam</a> 是从 itch.io 托管的，如果你已经将游戏上传到平台上，就可以轻松加入。</p>
+<p> </p>
+<p>首先，如果你尚未 <a href="https://itch.io/register" target="_blank" rel="noopener noreferrer">注册帐户，请在此处注册</a>。然后：</p>
+<ul>
+<li>从 <a href="https://itch.io/dashboard" target="_blank" rel="noopener noreferrer">仪表板</a> 中选择"创建新项目"。</li>
+<li>输入游戏/故事的详细信息，确保为项目类型选择"HTML"。</li>
+<li>压缩从 inky 导出的所有文件并上传它们。</li>
+<li>选择"此文件将在浏览器中播放"。</li>
+<li>嵌入：我们建议你尝试此设置，以查看你喜欢的内容。</li>
+<li>大小：我们建议 800 x 600 更适合阅读文本，而不是默认大小。对于移动设备来说，它仍然会缩小。</li>
+<li>移动友好：是</li>
+<li>自动启动：我们建议你试试它，并决定你喜欢什么。</li>
+<li>全屏按钮：我们建议是的，但由你决定。</li>
+<li>启用滚动条：由于模板内置了滚动，因此没有必要这样做。</li>
+</ul>
+<p> </p>
+<p>你可在“查看和访问”下选择“草稿”，预览你的游戏。一旦你准备好把游戏发布，只需选择“公共”。</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>适合初学者！</title>
+        <author>
+            <name>Legacy</name>
+        </author>
+        <link href="https://fur2.now.sh/gua-he-chu-xue-zhe/"/>
+        <id>https://fur2.now.sh/gua-he-chu-xue-zhe/</id>
+
+        <updated>2020-01-18T17:03:48+08:00</updated>
+            <summary>
+                <![CDATA[
+                    才疏学浅，欢迎指正。标*内容为译者增添，可略过。 希望大家都能像写 Markdown 一样，轻松写出互动小说。 个人建议：简单学习基础部分，认真看下“编织”部分，粗略看下高阶部分。 本文修改自 https://www.inklestudios.com/ink/web-tutorial 编写互动小说从未如此简单，因为我们有很多可用的创作工具。Twine 因其对用户友好，用其可视化的"贴便笺与字符串"来规划故事，因此在创作基于 Web 的互动小说中很受欢迎。 相比之下，INK 最初不是为 Web 设计的工具，它被设计成集成到传统的游戏引擎中的插件。在 Inkle，我们几乎把它用于我们所创造的一切，从 80 Days（最初为移动端）到即将到来的 Heaven’s Vault 的PS4与PC版。由于我们的开源，它也被用于一系列受人瞩目的独立游戏，像 Bury Me My Love 和 Where the Water Tastes Like Wine，两者都在2018年被&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <blockquote>
+<p>才疏学浅，欢迎指正。标*内容为译者增添，可略过。</p>
+<p>希望大家都能像写 Markdown 一样，轻松写出互动小说。</p>
+<p>个人建议：简单学习基础部分，认真看下“编织”部分，粗略看下高阶部分。</p>
+<p> </p>
+<p>本文修改自 <a href="https://www.inklestudios.com/ink/web-tutorial/" target="_blank" rel="noopener noreferrer">https://www.inklestudios.com/ink/web-tutorial</a></p>
+</blockquote>
+<p> </p>
+<h1 id="uDtnZ">适合初学者！</h1>
+<p>编写互动小说从未如此简单，因为我们有很多可用的创作工具。Twine 因其对用户友好，用其可视化的"贴便笺与字符串"来规划故事，因此在创作基于 Web 的互动小说中很受欢迎。</p>
+<p>相比之下，INK 最初不是为 Web 设计的工具，它被设计成集成到传统的游戏引擎中的插件。在 Inkle，我们几乎把它用于我们所创造的一切，从 <a href="https://www.inklestudios.com/80days" target="_blank" rel="noopener noreferrer">80 Days</a>（最初为移动端）到即将到来的 <a href="https://www.inklestudios.com/heavensvault" target="_blank" rel="noopener noreferrer">Heaven’s Vault</a> 的PS4与PC版。由于我们的开源，它也被用于一系列受人瞩目的独立游戏，像 <a href="http://burymemylove.arte.tv/" target="_blank" rel="noopener noreferrer">Bury Me My Love</a> 和 <a href="https://www.wherethewatertasteslikewine.com/" target="_blank" rel="noopener noreferrer">Where the Water Tastes Like Wine</a>，两者都在2018年被  IGFs 提名。</p>
+<p><span    ><img class="image lake-drag-image" src="https://cdn.nlark.com/yuque/0/2019/png/262531/1573979803577-c26ce704-9392-4cc2-8c5e-9ffda41700b8.png"  ></span></p>
+<p> </p>
+<p><span    ><img class="image lake-drag-image" title="15742487653940.png" src="https://cdn.nlark.com/yuque/0/2019/png/262531/1574248791396-592b3440-0196-4799-a0c0-7cdee4fea09f.png" alt="15742487653940.png"  ></span></p>
+<p> </p>
+<p>但是用 INK 为 Web 写故事是<strong>很容易的</strong>！到目前为止，缺少的是一个简单的教程，提供了用 INK 写故事的方法，将其发布到网络上并供人浏览基础知识。</p>
+<p> </p>
+<p><strong>本教程假定你对 INK 或 Web 技术的经验知识为零</strong>，缺乏技术的作者能从这拥有入门所需的一切。但如果你希望深入了解某个主题，我们将在整个过程中随时提供切入点。</p>
+<p>下面是本教程大致的主体。随意跳过或浏览你已熟悉的任何主题：</p>
+<ul>
+<li>上手 INK ：下载工具并编写一个简单的故事。</li>
+<li>导出为 Web - 如何为你的故事创建可共享网页。</li>
+<li>可选：自定义页面的外观，包括 CSS 基础知识的说明。</li>
+<li>发布到网页*：上传你的作品到供他人游玩的完美场所。</li>
+</ul>
+<p> </p>
+<div id="LsTWt"    ><hr></div>
+<p> </p>
+<h1 id="oEkBy">INK 入门</h1>
+<p>这有一个 <a href="https://github.com/inkle/ink/blob/master/Documentation/WritingWithInk.md" target="_blank" rel="noopener noreferrer">官方文档</a>，告诉你关于 INK 所有需要知道的，从基础知识到复杂强大的结构。</p>
+<p>但本指南将略过这些，指出其中最容易理解的功能，以便你能上手编写一个简单的故事。当然，如果你想尝试更高级的内容，请随时进入官方文档。</p>
+<p> </p>
+<h2 id="KAz5e">下载 Inky</h2>
+<p> </p>
+<p><span    ><img class="image lake-drag-image" title="Inky.exe(1)1.png" src="https://cdn.nlark.com/yuque/0/2019/png/262531/1573979720553-2a82b83f-ea51-44e4-bac2-4a6756704f64.png" alt="Inky.exe(1)1.png"  ></span></p>
+<p> </p>
+<p>我们将用 <strong>Inky </strong>编写——用于创作 INK 脚本的官方编辑器。所以，请继续前进，<a href="https://github.com/inkle/inky/releases" target="_blank" rel="noopener noreferrer"><strong>并点击这里下载它！</strong></a>支持Widows、Mac、Linux（如果你习惯 VS code *，也有用于支持编辑 INK 的插件）。</p>
+<p> </p>
+<p>启动它时，你将看到一个双栏窗口。左侧编写故事，右侧可预览故事的运行。</p>
+<p>首先要了解 INK，从本质上讲，它只是纯文本，并带有特殊的注释（“标记”）使其具有交互性。所以请继续，在左侧试着写一个句子，你会看到它出现在右边的预览区。也可以试着写多个段落看看。</p>
+<p> </p>
+<p><strong>重要</strong>*，写作时记得经常保存项目（Save Project），以防发生意外造成不必要的损失。</p>
+<p> </p>
+<div id="3HkrE"    ><hr></div>
+<p> </p>
+<h1 id="AsDjN">举个例子</h1>
+<p>现在，让我们看门见山，来看一个简单的故事示例。</p>
+<p>若你以前从未接触过编程（很多符号！），下方截屏中的蓝色标记最初可能让人望而生畏。但我们会逐步介绍它们，以便你了解它们的组合方式。</p>
+<p> </p>
+<p><span    ><img class="image lake-drag-image" title="image.png" src="https://cdn.nlark.com/yuque/0/2019/png/262531/1573979027210-d014aced-9bcd-4900-a14e-992eda5e37f2.png" alt="image.png"  ></span></p>
+<p> </p>
+<p>请将下方内容复制到 Inky 的左栏中，然后在右栏中预览。右上角的单箭头是<strong>后退</strong>，双箭头是<strong>重置</strong>预览的故事。</p>
+<p> </p>
+<div id="zevc9"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">伦敦，1872年
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">Phileas Fogg 先生的住所。
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">-&gt; london
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== london === //这是节点
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">Phileas Fogg 先生早早从改革俱乐部回到了家，并乘坐了新型的蒸汽运输机！   
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">“领航,” 他喊到。 "我们去环游世界！"
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">+ “环游世界，先生？” 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    我大吃一惊。
+</span></span>    
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">    -&gt; astonished
+</span></span>    
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">+ [点头。] -&gt; nod
+</span></span>
+
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== astonished ===
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">“你在开玩笑！” 我认真地对他说。“你一定是在和我开玩笑，先生。” 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">“我很认真。” 
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">+ “好吧。”
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">    -&gt; ending
+</span></span>
+
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== nod ===
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">我点了点头，但不相信一个字。
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">-&gt; ending
+</span></span>
+
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== ending //这也是节点
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content"># CLASS: end
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">“我们将在八十天内环游地球。” 他很平静地提出了这个近乎疯狂地计划“我们8:25去巴黎。一小时后。”
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">-&gt; END
+</span></span></pre>
 </div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>狼与女装</title>
-        <author>
-            <name>Legacy</name>
-        </author>
-        <link href="https://fur2.now.sh/lynz/"/>
-        <id>https://fur2.now.sh/lynz/</id>
-            <category term="狼"/>
-            <category term="欢乐"/>
-
-        <updated>2020-01-18T15:05:52+08:00</updated>
-            <summary>
-                <![CDATA[
-                     狼今天女装了，说这是在的， 穿女装挺不习惯的。 尤其是那这条百褶裙，虽然看起来那么厚实，总觉得还是觉得两腿只间凉飕飕的，还要尽量把大腿并拢一些的，小腿在岔开一些的。 照了照镜子，这应该算是女仆装了吧？ 狼看到了自己后面那条粗壮的灰色尾巴，找了几条丝带缠了起来。 “呜，有些疼。” 再打一个蝴蝶结，晃晃尾巴，感觉还不错，呀有歪了。 最好还要穿上这双高跟鞋，鞋跟很高的那种，据说有火箭点火装置。 没问题，穿的上的，就是有些卡脚。 等下，狼看了看自己两只大爪子，算了，还是再戴一副手套吧。 好啦，可以出门了。对，东西不能放背包里，还是用下那个小包包吧，怎么这么小？ 管不了那么多了，我要迟到了！ “等下，我要应聘猫咪咖啡的女仆！” “这位，这位小姐姐？” “放尊重点，你管谁喊姐姐？” 猫咪女仆咖啡店的店主莫名感到了前所未有的威胁。 “可，可是，您这样会吓到客人的。” “什么？老子，哦不，老娘，哦不，本小姐，不妹妹人家这么可爱则么会吓到别人呢？” “拜托您走好不好，您这样影响我生意的，好吧？” “人家也是来做生意的好不好？” 狼的声音轻松压过了店主，店主愣住了，整个咖啡厅里的人都看着他俩。 店长连忙压低了声音，“您就是来发货的Miss雷霆公主冯海格力斯？” “对对，就是我！”要不是绑住了尾巴，狼差点翘起尾巴来。 “低调些，咱们快点交易。” 然而... “里面的人听着，你们包围了。” “对不住了，小姐姐，”说着店长就一把搂住了狼，“外面的听着，人质在我手上！给我准备一架飞机，”，&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <div>
-<div> </div>
-<div>狼今天女装了，说这是在的， 穿女装挺不习惯的。</div>
-<br>
-<div>尤其是那这条百褶裙，虽然看起来那么厚实，总觉得还是觉得两腿只间凉飕飕的，还要尽量把大腿并拢一些的，小腿在岔开一些的。</div>
-<br>
-<div>照了照镜子，这应该算是女仆装了吧？</div>
-<br>
-<div>狼看到了自己后面那条粗壮的灰色尾巴，找了几条丝带缠了起来。</div>
-<br>
-<div>“呜，有些疼。”</div>
-<br>
-<div>再打一个蝴蝶结，晃晃尾巴，感觉还不错，呀有歪了。</div>
-<br>
-<div>最好还要穿上这双高跟鞋，鞋跟很高的那种，据说有火箭点火装置。</div>
-<br>
-<div>没问题，穿的上的，就是有些卡脚。</div>
-<br>
-<div>等下，狼看了看自己两只大爪子，算了，还是再戴一副手套吧。</div>
-<br>
-<div>好啦，可以出门了。对，东西不能放背包里，还是用下那个小包包吧，怎么这么小？ 管不了那么多了，我要迟到了！</div>
-<br>
-<div>“等下，我要应聘猫咪咖啡的女仆！”</div>
-<br>
-<div>“这位，这位小姐姐？”</div>
-<br>
-<div>“放尊重点，你管谁喊姐姐？”</div>
-<br>
-<div>猫咪女仆咖啡店的店主莫名感到了前所未有的威胁。</div>
-<br>
-<div>“可，可是，您这样会吓到客人的。”</div>
-<br>
-<div>“什么？老子，哦不，老娘，哦不，本小姐，不妹妹人家这么可爱则么会吓到别人呢？”</div>
-<br>
-<div>“拜托您走好不好，您这样影响我生意的，好吧？”</div>
-<br>
-<div>“人家也是来做生意的好不好？”</div>
-<br>
-<div>狼的声音轻松压过了店主，店主愣住了，整个咖啡厅里的人都看着他俩。</div>
-<br>
-<div>店长连忙压低了声音，“您就是来发货的Miss雷霆公主冯海格力斯？”</div>
-<br>
-<div>“对对，就是我！”要不是绑住了尾巴，狼差点翘起尾巴来。</div>
-<br>
-<div>“低调些，咱们快点交易。”</div>
-<br>
-<div>然而...</div>
-<br>
-<div>“里面的人听着，你们包围了。”</div>
-<br>
-<div>“对不住了，小姐姐，”说着店长就一把搂住了狼，“外面的听着，人质在我手上！给我准备一架飞机，”，</div>
-<br>
-<div>“啊呀，救命啊，我好害怕呀，救命啊，救命啊！”</div>
-<br>
-<div>“拜托，Miss那个雷霆什么您装的像一点好吗？挣扎的动静小一点，我都快搂不住你了，”店长满脸黑线的看着狼，“你裙子下有没有藏着什么家伙？我需要些顺手的家伙。”</div>
-<br>
-<div>“有，我今天还没用过呢。”狼慢条斯理的说到，拦住了一把伸向裙底的店长的手，使劲拽了过来，把可怜的店长晃到在地，然后，一屁股坐了下去。</div>
-<br>
-<div>“咳，救命，不要，不要咬我脚踝，啊，啊，啊！”</div>
-<br>
-<div>“还要不要看看我的武器，很硬哦？”</div>
-<br>
-<div>狼有些羞耻的笑了，可以不用女装了。</div>
-<br>
-<div>“总部总部，我是大尾巴狼，可以回收了。什么？外面的人都走了，哦哦，感谢信任。把高跟鞋绑他身上就好了？一根就行，然后点火。”</div>
-<br>
-<div>狼把左脚的高跟鞋甩了下来，绑在了已经昏过去的店长身上，按下了点火按钮。</div>
-<br>
-<div>“嗷嗷嗷，要走光了，嗷嗷呜呜呜~”</div>
-<br>
-<div>不过显然狼忘记了自己右脚上还有一只高跟鞋，倒栽葱样的螺旋升天了，吓得狼连忙捂住了裙子，咚的一声穿过了屋顶，消失在天空不见了。</div>
-<br>
-<div>咖啡店里的客人显然都吓了一跳，不过很快都庆幸自己今天可以免单了。</div>
-<br>
-<div>”没想到啊，竟然还真装包里带来了。“</div>
-<br>
-<div>人群中，有头漆黑的豹子把狼丢在咖啡店里的小包包揣进了怀里，不见了踪影。</div>
-<br>
-<div>“货物到手，撤退吧，要开心哦。”</div>
-<br><br><br><br><br><br></div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>黑狼王子与三只小猫</title>
-        <author>
-            <name>Legacy</name>
-        </author>
-        <link href="https://fur2.now.sh/hlwz/"/>
-        <id>https://fur2.now.sh/hlwz/</id>
-            <category term="狼与魔王"/>
-            <category term="NSFW"/>
-
-        <updated>2020-01-18T16:17:29+08:00</updated>
-            <summary>
-                <![CDATA[
-                    魔族第二百二十三王子黑狼被分到了白骨之森的城堡，很快他就成了当地的魔王，一天到晚都有没完没了的勇者之类的来上门骚扰他…… 魔族第二百二十三王子黑狼被分到了白骨之森的城堡，很快他就成了当地的魔王，一天到晚都有没完没了的勇者之类的来上门骚扰他……后来他索性在城堡门口贴了一张公告： 请勿用武器直接砍本狼，武器损坏改不赔偿…… 本狼不教授魔法，不需要学费你也学不会…… 传送魔王送你回家免费，但你要知道你家在哪…… 本狼不是恶龙，地下室没有宝藏更没有公主…… 满月夜本狼不接客，最好哪天都别来…… 直到有一天，黑狼抱着第249为勇者把他回了家，新的挑战者已经在城堡门口等着他了。 是一只猫，而且是一只橘猫…… “今天是晚上是满月夜，”黑狼打了一个哈欠，“本狼不接客了。” “不要小看我，我可是猫界剑客大师马格纳斯！”说着橘猫用插在身旁的刺剑捅了黑狼的腿一下。 这年头魔王的地位都这么低了吗，连猫都能来挑衅了…… 橘猫又用刺剑捅了下黑狼的腿。 “别闹，咱俩好好谈谈。你是不是其他魔王派来捣乱的？”黑狼蹲了下来，可还是比橘猫高了一头。 橘猫用刺剑捅了下黑狼的鼻子…… 黑狼真的火了，一把夺过了橘猫的刺剑，当着橘猫的面把刺剑掰断了。 “我靴子可是厚铁做的，吃我一记飞踢……”橘猫话还没说完，就被黑狼一巴掌拍飞了。 “如果你不想变成肉串，就尽快离开吧。”黑狼伸出了闪着寒光的爪子，在橘猫胸口晃了晃，然而橘猫并没有想要离开的样子。 黑狼心想也无所谓了，反正城堡也不小，你不走我走就是了，于是瞬移到城堡其他房间去了。 转眼间晚上就到了，圆月在天边爬了上来，看的黑狼心里痒痒的，走上了城堡顶层的露台，“嗷嗷嗷呜……” 后面跟上来了一只橘猫。 “你怎么还没走？用我送你回去吗？你家在哪啊？” “黑狼先生，你知道为什么这么多勇者天天往你这来吗？” 这么一说，黑狼还真的从来没想过这个问题。 橘猫从口袋里掏出了一张悬赏，朝黑狼走了几步：&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>魔族第二百二十三王子黑狼被分到了白骨之森的城堡，很快他就成了当地的魔王，一天到晚都有没完没了的勇者之类的来上门骚扰他……</p>
-<h2 id="mcetoc_1durjvf312">第一只小猫</h2>
-<p><br>魔族第二百二十三王子黑狼被分到了白骨之森的城堡，很快他就成了当地的魔王，一天到晚都有没完没了的勇者之类的来上门骚扰他……后来他索性在城堡门口贴了一张公告：</p>
-<blockquote>
-<p><br>请勿用武器直接砍本狼，武器损坏改不赔偿……<br>本狼不教授魔法，不需要学费你也学不会……<br>传送魔王送你回家免费，但你要知道你家在哪……<br>本狼不是恶龙，地下室没有宝藏更没有公主……<br>满月夜本狼不接客，最好哪天都别来……</p>
-</blockquote>
-<p><br>直到有一天，黑狼抱着第249为勇者把他回了家，新的挑战者已经在城堡门口等着他了。<br><br>是一只猫，而且是一只橘猫……<br><br>“今天是晚上是满月夜，”黑狼打了一个哈欠，“本狼不接客了。”<br><br>“不要小看我，我可是猫界剑客大师马格纳斯！”说着橘猫用插在身旁的刺剑捅了黑狼的腿一下。<br><br>这年头魔王的地位都这么低了吗，连猫都能来挑衅了……<br><br>橘猫又用刺剑捅了下黑狼的腿。<br><br>“别闹，咱俩好好谈谈。你是不是其他魔王派来捣乱的？”黑狼蹲了下来，可还是比橘猫高了一头。<br><br>橘猫用刺剑捅了下黑狼的鼻子……<br><br>黑狼真的火了，一把夺过了橘猫的刺剑，当着橘猫的面把刺剑掰断了。<br><br>“我靴子可是厚铁做的，吃我一记飞踢……”橘猫话还没说完，就被黑狼一巴掌拍飞了。<br><br>“如果你不想变成肉串，就尽快离开吧。”黑狼伸出了闪着寒光的爪子，在橘猫胸口晃了晃，然而橘猫并没有想要离开的样子。<br><br>黑狼心想也无所谓了，反正城堡也不小，你不走我走就是了，于是瞬移到城堡其他房间去了。<br><br>转眼间晚上就到了，圆月在天边爬了上来，看的黑狼心里痒痒的，走上了城堡顶层的露台，“嗷嗷嗷呜……”<br><br>后面跟上来了一只橘猫。<br><br>“你怎么还没走？用我送你回去吗？你家在哪啊？”<br><br>“黑狼先生，你知道为什么这么多勇者天天往你这来吗？”<br><br>这么一说，黑狼还真的从来没想过这个问题。<br><br>橘猫从口袋里掏出了一张悬赏，朝黑狼走了几步：<br><br>今白骨之森有一魔狼，每逢月圆之夜必定嚎叫，方圆千里居民深受其苦。现悬赏此狼头颅，赏金十万金币……<br><br>“你想要我头颅？”<br><br>“不，我只是想要钱。如果你肯给我十万金币，我就立刻走人。”<br><br>黑狼心想如果自己要是有十万金币，还来这破白骨之森当魔王干啥？<br><br>“九万金币，也是可以的。”<br><br>黑狼的毛开始变长，犬齿也从嘴里伸了出来，看起来还变高变大了不少……<br><br>“当然，你也可以选择把你的脑袋给我，”<br><br>黑狼的四只砂锅大爪子落在了地上，牛铃大的双眼冒出了幽绿的光……<br><br>“我自己拿去换……”<br><br>温热的鼻息喷在橘猫身上，黑狼硕大的脑袋离橘猫是如此至今，嘴里冒着泡的口水沿着嘴角滴答滴答的落在天台的地板上……<br><br>然而橘猫却直接扑了过来，抱在了黑狼身上。<br><br>黑狼有些惶恐，从来没见过胆子这么大的小家伙，想要把橘猫甩开，可这橘猫抱得是如此至紧，奶香味直勾黑狼的鼻子……<br><br>“嗷呜……”<br><br>黑狼把持不住自己的食欲，张开大口咬住了橘猫。那橘猫非但没有挣扎，反而真的如牛奶般丝滑，一口就滑到了黑狼的肚子里……<br><br>黑狼有些害怕，他感觉到橘猫掉到自己肚子里挣扎了几下，就再也没有了动静……<br><br>圆月落下去了。<br><br>“我吃人了……也许从今天起，我真的是一个魔王了”——黑狼在魔王频道上帖子了一个帖子，但很快，黑狼收到了大波嘲笑：<br><br>“吃猫，也能算吃人吗……” “你该吃掉一个国家的人，再来发帖子……” “看了吗，这是我今天的早餐……”<br><br>黑狼只好又把帖子悄悄的删掉了。</p>
-<h2 id="mcetoc_1durk1lci3">第二只小猫</h2>
-<p><br>黑狼觉得自己这几天胃口很糟糕，有点后悔自己吃了那只橘猫，要知道自己以前只吃熟食的，连生肉都不吃的。<br><br>可那天是满月夜，黑狼有些身不由己……<br><br>更另黑狼担心的是，现在看着那些来骚扰自己的勇者，他心里总有个想把他们生吞活剥的想法……于是现在黑狼遇到勇者，都直接一招把他们打发掉。<br><br>黑狼想起了遥远的异世界有一句话，“女装只有一次和无数次”，大概就是这个意思了吧……<br><br>很快，又是一个满月夜，黑狼提前在城堡门口挂上了“免战牌”。黑狼还从白骨之森里，捡了一堆倒霉的白骨回来，堆在了门口，写上“进来就是这个下场”。<br><br>总算没人来烦黑狼，狼蜷缩在王座上……<br><br>然而，有人进来了，不，又是一只猫，一只豹猫……<br><br>“今晚是满月夜，本狼不接客……”<br><br>“别小看我，我可是猫界神枪手帕格纳斯！”说着豹猫转了转手里的火枪，枪里滚出了一颗子弹，滚到了黑狼的脚边。<br><br>黑狼满脸黑线的捂上了脸……帕格纳斯，有点耳熟……等等，好像那只橘猫叫马格纳斯，该不会……<br><br>“那个，帕格纳斯，你是不是认识一只拿着针的的橘猫，叫马格纳斯？”<br><br>“是，他是我兄弟，猫界剑术大师马格纳斯！”<br><br>黑狼心里吃了一惊，要是这豹猫知道他的兄弟橘猫被自己给吃掉了……<br><br>“我猜你肯定早就知道他的威名了，现在来看看我的枪法！”又一发子弹滚到了黑狼的脚边……<br><br>不如把这只豹猫也吃掉，让他们在肚子里团聚吧……<br><br>“我很欣赏你和你的枪法，晚些再来吧！”黑狼发现又冒出这个可怕的想法，现在只想赶快把这只花猫请走。<br><br>“好吧，”<br><br>黑狼觉得，如果那只橘猫也像他兄弟一样，通情达理些该多好，就不会发生悲剧了。<br><br>“我晚上再来拜访你。”<br><br>“啥？晚上也别来！”<br><br>然而豹猫早就不见了踪影，也不知道听见没听见。<br><br>又到了圆月爬上来了的夜晚，黑狼又爬到了露台上，对着月亮开始嗷呜嗷呜起来……<br><br>“很吵唉，黑狼先生。”<br><br>声音很小，黑狼回过头去环顾四周，没人的样子……<br><br>“你被人悬赏真是活该，我都被你吵醒了。”<br><br>黑狼这才注意到，这微弱的声音竟是从他肚子里传来的……难道是那只橘猫还活着？<br><br>“你是，马格纳斯吗？”<br><br>“当然，是我马格纳斯，猫族剑术大师，马格纳斯！”<br><br>“你没被消化掉？在本狼肚子里住了一个月？”<br><br>“就算你是魔王，吃石头化铁，能消化掉我这双厚铁做的靴子吗？过去一个月了，时间过得这么快吗？不过，还来得及的样子……”<br><br>“啥？”<br><br>“额，我是说，我，伟大的猫族剑术大师马格纳斯，又将在自己的冒险史上填一笔浓墨重彩的奇遇，我，在邪恶魔狼的肚子里住了一个月，奇迹般的毫发无损……”<br><br>黑狼听了也不知道自己心里是啥滋味，该庆幸橘猫没死？把他弄出来就好了。可是如果传出去，魔族第二百二十三王子黑狼，吃掉一只小猫一个月都没消化掉，自己会不会被别人笑得连魔王都做不成了……<br><br>再简短明了的思想斗争后，黑狼决定还是先把橘猫弄出来比较好，毕竟他还有一个豹猫的兄弟，黑狼不太想和别人结仇，即使是只很普通很弱小的猫。<br><br>“我张嘴，你从我嘴里能出来吗？”<br><br>“不用您费心了，作为一个剑术大师，应该有猫族的冒险精神。我决定就走这条路了……这是你的肠子？闻起来有点恶心，不过我去过比这更恶心的地方……”<br><br>黑狼肚子里没有半点感觉，只是觉得声音越发的靠下……是不是该去趟厕所呢？<br><br>“晚安，我来赴约啦。”<br><br>黑狼心里一惊，回头一看，果然是帕格纳斯。怎么 偏偏这个时候来了？如果他要是知道了，黑狼把他兄弟吃了……好像也不能怎么样，可最好还是先把他兄弟弄出来吧。<br><br>“不是说你晚上也别来了吗？”<br><br>“因为我一切都知道了！”<br><br>“？！”<br><br>“你身为魔王，却每逢满月夜嚎叫……”<br><br>黑狼松了一口气，还以为他知道自己吃了他的兄弟呢。<br><br>“是因为你的兽欲无法宣泄！”<br><br>“啥？”黑狼差点被这急转弯扭到腰。<br><br>“古书上记载，魔族会受月光的影响而滋生兽欲……”<br><br>黑狼索性坐在一旁，听帕格纳斯一本正经的胡扯，魔族的各种欲望，只要有足够刺激，就会兽性大发，丧失理智……可自己又不是原始的野兽，哪有什么兽欲啊……<br><br>黑狼就这么想着，突然觉得自己小腹底部好像有啥动静，正想是不是马格纳斯要出来，那该多尴尬……<br><br>“嗷！”<br><br>“你看，我说的对吧。”<br><br>黑狼大脑一片空白……刚才那是什么感觉，就像是雷击一般全身酥软，腰部发麻……正想着怎么反驳，可双腿之间的小黑狼，已经不争气的从浓密的毛发中微微挺起来了。<br><br>“你就是兽欲压抑太久，要兽性大发了。”<br><br>“我，我不是，我没有……”<br><br>黑狼想赶快闪人，低声问，“马格纳斯，你在做什么啊？是你干的吧？”<br><br>然而并没有任何回应……<br><br>黑狼只是个不谙世事的魔族王子，成年后被封为白骨之森的魔王，每天也就赶赶前来骚扰的勇者。怎么可能知道那只橘猫故意赖在他的后穴里，隔着肠子躺在他那像个栗子样的突起，从未被刺激过的雄性腺体之上……<br><br>马格纳斯又使劲压了下黑狼那可怜的突起腺体，靠在上面伸了个懒腰。<br><br>黑狼只觉得自己双腿发软，差点跪在地上。<br><br>“少说你也得有三四百岁了吧，都这么大的狼，连自己这点问题都解决不了吗？”<br><br>黑狼回头，帕格纳斯竟跟了过来。<br><br>“有的时候，自己的事情得自己做。”帕瓦纳斯抓着黑狼砂锅大的爪子，放到了黑狼已经朝天的小黑狼上。<br><br>“握好了。”<br><br>黑狼有些慌乱，害羞，或者是手足无措……<br><br>“用些力好呗？”<br><br>“嗷！”<br><br>“你真没做过？对自己也能下真么狠的手。放松一些，对，就这样，上来，对下去……”<br><br>黑狼觉得源于自己体内的冲动，和来自外面的刚好对上了……虽然感觉不太一样，但却又真的很是相似……<br><br>很快，黑狼觉得自己全身，一股暖流涌了出来……从来没有过的感觉，感觉自己沐浴在暖流中……<br><br>片刻后，黑狼回过神来，发现自己坐在地上，双腿叉开……只见豹猫在用一个类似橡胶吸瓶的东西，吸着黑狼小腹上的乳白色粘稠液体。<br><br>“你在做什么？”<br><br>“收集金币啊！”<br><br>“金币？”<br><br>“你不知道吗？魔物的精华在黑市上可是抢手的宝贝，有不少炼金术士抢还都抢不到。像你这种魔王级别，那就更值钱了！再看这品相和浓度，八成还是初精，而且还浓缩了几百年的样子，简直是……”<br><br>黑狼听着帕格纳斯说的如此夸张，有些好奇的用手指蘸了些自己小腹上的液体，伸了伸鼻子，一股刺鼻的腥臭味让他直接甩掉了。<br><br>“你不要别浪费呀！”帕格纳斯连忙用吸瓶把黑狼手指上的液体吸了进来，“这还有不少，别乱动！”帕格纳斯把吸瓶伸进了黑狼的肚脐里，弄得黑狼很是发痒，有些不耐烦了。<br><br>“完事了没？”<br><br>“嗯……”帕格纳斯仔细的又看一遍，拍了拍黑狼的小腹“看样子外面的都收集干净了……”<br><br>“又来？马格纳斯……”<br><br>肚子里像是回应帕格纳斯拍了拍黑狼小腹部一样，又使劲的冲撞了下黑狼的雄性腺体，比前几次都要狠，以至于本来有些软下去的小黑狼一下子又挺了起来，嘴角都微微渗出了些液体……<br><br>“马格纳斯？你刚才是在喊我兄弟？”<br><br>“没……额，本狼，本狼喊错名字了……”黑狼还是不想让帕格纳斯知道自己吃掉了他的兄弟。<br><br>然而帕格纳斯连看都没看黑狼一眼，连忙用吸瓶把小黑狼上那点刚出来的液体吸干净了，把吸瓶内的液体倒进了另一个大瓶子里，然后把手伸向了黑狼叉开的双腿中心……<br><br>“啧啧，瞧瞧你这两大金库，滚圆滚圆的，存货还不少呢……”<br><br>“你，想干什么！”黑狼这才感觉到事情发展的有些不对。<br><br>“你兽欲才发泄了一点点吧？我再帮你一把，你把你藏了这几年的金币都给我吧……”<br><br>帕格纳斯一把托住了黑狼两个毛茸茸的蛋蛋（猫爪太小，盖不过来），黑狼大吃一惊，一脚蹬飞了图谋不轨的帕格纳斯。<br><br>帕格纳斯擦了擦嘴角的血，不要命一样又扑了过来，掏出火枪，朝黑狼肚子就是开了两枪。<br><br>黑狼根本没有躲闪，别说手枪，就是火炮，在身为魔王的黑狼肉体面前也很难有什么效果。<br><br>正当黑狼要回击时，他那个在小腹底部被蹂躏了许久的腺体，吃了穿着厚铁靴子的马格纳斯整整两记飞踢……<br><br>“啊，啊……”<br><br>刚要站起来的黑狼，双腿之间直接射出一股液体，紧接着又射出了一股……黑狼直接仰天躺在地上，小黑狼直挺挺的冲着天上的圆月，全身酥软动弹不得……<br><br>黑狼这才意识到，这是一个巨大圈套，可惜他现在脑子一片空白嗡嗡直响，把脑袋伸进去了已经缩不回来了……<br><br>“你看，我都说过要放松些。你现在弄得到出都是，多浪费啊，每一滴都是一大把金币……”<br><br>“对，放轻松，就这样，对，好极了……我的枪法果然了得，哈哈……太好了，第四发也出来了。”<br><br>躺在地上喘着粗气动弹不得的黑狼，被帕格纳斯趁机又熟练的撸了一发出来。马格纳斯认真的把这些黑狼的精华吸进了吸瓶里，“太棒了，品相依旧完美……”<br><br>帕瓦纳斯啃咬着黑狼的耳根与后颈，第五发……<br><br>帕格纳斯揉搓着黑狼胸前的两块肉干，第六发……<br><br>黑狼试图抵抗，被马格纳斯从里面踢了一脚，第七发……<br><br>帕格纳斯数着黑狼两侧的肋骨，黑狼强忍着没啥反应。帕格纳斯又舔舐黑狼小腹和肚脐，第八发第九发一起出来了……<br><br>帕格纳斯抓挠黑狼大腿内侧，第十发……<br><br>“收获颇丰呀……我再想，如果后面这几发，就算掺些假，也应该能值不少金币……”帕格纳斯一边说，一边把战利品倒入罐子里收好。<br><br>黑狼依旧仰面朝天，只是在来了十发后，小黑狼不再冲着天上的圆月了，已经很是随意地倒向了一旁……<br><br>“你，满意了吧……马格纳斯也该出来了吧……”喘着粗气的，口水流了一地的黑狼看起来狼狈极了。<br><br>“这怎么好呢？”<br><br>“你……还想什么？”<br><br>帕格纳斯索性躺在了黑狼肚子上，双手拖住了帕格纳斯的下巴，“你这颗毛茸茸的可大脑袋还值十万金币呢？”<br><br>黑狼一听，瞳孔本能的缩紧，左臂收了回来，勒住了帕格纳斯的脖子……<br><br>“嗷！”<br><br>伴随着绝望的叫声，黑狼愣是被在他小腹里的马格纳斯里，蹂躏得又强弩起了小黑狼，射出了第十一发……勒住帕格纳斯脖子的左臂，也随之无力地瘫软下去……<br><br>“你紧张啥啊。我是想说，你这么值钱，一定可要活的长些，我们好从长计议。马格纳斯也先不着急出来，反正再你肚子里也活得好好的。”帕格纳斯起身，收集起黑狼刚射出的第十一发，“你是还有后备存货？”<br><br>没等黑狼反应过来，帕格纳斯用爪尖扣住了小黑狼的穴口，使劲往里捅了捅。触电般的黑狼在地上扭动着身子，小黑狼也和他一样扭动着……最终黑狼的两个蛋蛋一抽，第十二发出来了，比前期发看起来少了许多。<br><br>帕格纳斯有些不甘心的收集起第十二发，把爪尖抽出，不顾无力挣扎着的黑狼，一口含住了小黑狼，双手玩弄着黑狼两个已经疲软的有些塌下去的蛋蛋……<br><br>突然间，帕格纳斯用充满倒刺的舌尖，抵住了小黑狼的穴口。黑狼只觉得，有什么东西，一下子击中了，自己肉体的最深处……<br><br>第十三发。<br><br>帕格纳斯将嘴里的精华吐进瓶子里收好，又用吸瓶插入小黑狼的穴口，将黑狼尿道里残存的精华一滴不剩的吸了出来。<br><br>黑狼歪着脑袋，双眼无神，嘴大张着，舌头也吐了出来掉在地上，像死去了一样……<br><br>“放心，我会回来看你的，嗯，赚到的钱我也会和你三七分……看在还我有两个兄弟要养活的份上，你就在多给我两成，我九你一算了。”<br><br>帕格纳斯用火枪给自己点上了一支烟，抽了两口，“哦，对，忘记介绍了。除了马格纳斯，我还有个兄弟，叫瓦格纳斯，猫界拳术大师。希望你们能相处的愉快，到时候我会回来看你们的。”<br><br>帕格纳斯说完，俯下身子，将黑狼的舌头塞回他的嘴里，把嘴合上，又想了想，把自己叼着的烟卷塞进了黑狼嘴里，站起身来，踢了一脚黑狼空壳般的脑袋，扬长而去。</p>
-<h2 id="mcetoc_1durk2atv4">第三只小猫</h2>
-<p><br>黑狼恢复了意识，是在天快亮的时候，两个蛋蛋抽筋疼醒的……<br><br>黑狼觉得自己狼生，从未受过如此奇耻大辱。可马格纳斯躲在自己小腹里不肯出来，而自己又虚弱至极……黑狼一时不敢轻举妄动。<br><br>拖着被掏空的身体，黑狼来到了城堡旁的小河旁，清洗着粘在自己毛发上的污渍……清澈的河水映着黑狼狼狈的样子。黑狼忍不住低头看了眼自己双腿间疲软的不成样子的小黑狼，本应是雄性动物的骄傲，昨晚竟差点要了自己的命……<br><br>一点出路都没有吗？<br><br>这件事有三个点，黑狼小腹里的马格纳斯，黑狼双腿之间的小黑狼，和外面的帕格纳斯。<br><br>其实黑狼并不怕外面的帕格纳斯，毕竟自己身为魔王，躯体比堡垒都要结实，可就怕里应外合，内外夹击……<br><br>至于黑狼双腿之间的小黑狼，显然是帕格纳斯的目标，也是黑狼最大的弱点。对黑狼来说，那是他身为雄性动物的尊严；而对那几只猫说，只是一个“拧开”就能产金币的水龙头。如果产不出来金币呢……黑狼很快打消了这个愚蠢的想法，“产不出来”明明是自己是更受伤……<br><br>也就剩下了黑狼小腹里的马格纳斯了，可自己消化不掉，也吐不出来，更别提够到他了……但唯一的出路似乎就在这……<br><br>黑狼回到了城堡，坐到了王座上。<br><br>“马格纳斯，别装聋，本狼知道你听得到……”<br><br>马格纳斯依旧没有说话，有行动回应了黑狼。<br><br>好在黑狼昨晚那都被蹂躏的都有些麻木了，加上差不多已经弹尽粮绝了，还是把持住了，除了有些蛋疼。<br><br>“你这样，就不怕浪费你们的金币吗？”<br><br>马格纳斯依旧没有回应……<br><br>傍晚，帕格纳斯又来到了白骨之森，似乎刻意等了许久，直到深夜，才进入了黑狼的城堡。<br><br>只见黑狼摊坐在王座上，面红气喘，两腿岔开……小黑狼硬挺的指着帕格纳斯，上面一根根青筋暴起，呈现着狰狞的青紫色……<br><br>帕格纳斯拎出来一只小桶，接在了小黑狼下面。帕格纳斯轻轻托了下黑狼两个肿胀到极点的蛋蛋，黑狼本能向前弯曲身子试图躲开……<br><br>“你，到底，你到底，对本狼做了什么？”<br><br>帕格纳斯并没有回答黑狼，反而冲着小黑狼喊了一句，“瓦格纳斯，开闸吧！”<br><br>然后黑狼惊讶的听到，有个陌生的声音从他的两个蛋蛋之间传来，“我说兄弟，我在这里面攥着两根管子都快一天了，要不是我，瓦格纳斯，猫族拳术大师！手劲过人，这狼早就泄了。而那马格纳斯，也就踢那么几脚。所以到时候分钱，可得多分我一些……”<br><br>第三只小猫……黑狼气的咬牙切齿，竟然除了小腹里的马格纳斯，自己体内竟然还有一只小猫，让自己差点憋死。可，这怎么可能？<br><br>难道是……黑狼猛地想起昨晚的第十三发，帕格纳斯用最含住了自己的小黑狼，然后用舌尖抵住了小黑狼的穴口，紧接着有什么东西一下子击中了自己肉体的最深处……<br><br>“行行，多分你点就是了，反正有这头狼在，我们就有的是钱。开闸吧！”<br><br>“兄弟，先放左边还是右边？”<br><br>“别磨蹭了，快一起放吧，我一会回去还要补个觉……”<br><br>话还没说完，随着差点被憋坏的黑狼舒了一口气，汹涌地从小黑狼那喷射了好一阵子，没有一滴落在小黑狼下面的桶里，全都喷射到了帕格纳斯的脸上。<br><br>“啊……”帕格纳斯惨叫着被黑狼射飞，撞到了一旁墙上的，摔到地上动弹不得了。中间他是想对瓦格纳斯喊停的，可他一张嘴，就被黑狼射出的精华填满了嘴，发不出声音了……<br><br>作为一个交手了249个勇者的魔王，帕格纳斯就成为了第250个“真正”与黑狼交手的“勇者”。可是与之前的勇者不同，人们从此再也没见过这个叫帕格纳斯的猫族勇者，更别提他那两个兄弟了。</p>
-<p>完</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>欢迎</title>
-        <author>
-            <name>Legacy</name>
-        </author>
-        <link href="https://fur2.now.sh/welcome/"/>
-        <id>https://fur2.now.sh/welcome/</id>
-
-        <updated>2020-01-18T15:11:35+08:00</updated>
-            <summary>
-                <![CDATA[
-                    这是一个 furry 主题的文档托管。 简单说，不要管别人说什么「这才算兽，那不算」，只要你认为自己是兽迷，你喜欢的拟人化动物角色就可以算作「兽」。因此，「兽」的定义方式完全是靠「自由心证」了。 …… 每一个兽迷的共同点只是在于对拟人动物的热爱，仅此而已，除此之外的一切都并不是兽迷文化自带的属性。角色扮演，性，LGBTQ+，另类右派，等等，都不是兽迷文化中必备的。
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>这是一个 <strong>furry</strong> 主题的文档托管。</p>
-<p><img src="https://fur2.xyz/uploads/images/gallery/2019-12/scaled-1680-/810462414-01.jpeg" alt="810462414-01.jpeg"></p>
+</div>
+</div>
 <p> </p>
-<blockquote>
-<h2 id="mcetoc_1dur7p4nh0" class="align-left">什么是 furry ？</h2>
+<p>预览时，调整左栏的内容，右栏预览也会实时更新，即使你正处于故事中。你甚至可以点击右栏中的某个单词，它会选中左栏中的源文本（当故事变得非常复杂时，这非常有用！）。你也可以先看这个故事，用默认模板发布到到网页的效果，<a href="https://inky-example.netlify.com/" target="_blank" rel="noopener noreferrer">点我运行体验</a>。</p>
 <p> </p>
-<div class="align-left">简单说，不要管别人说什么「这才算兽，那不算」，只要你认为自己是兽迷，你喜欢的拟人化动物角色就可以算作「兽」。因此，「兽」的定义方式完全是靠「自由心证」了。<br><br>……<br><br>每一个兽迷的共同点只是在于对拟人动物的热爱，仅此而已，除此之外的一切都并不是兽迷文化自带的属性。角色扮演，性，LGBTQ+，另类右派，等等，都不是兽迷文化中必备的。</div>
-</blockquote>
+<p><span    ><img class="image lake-drag-image" title="image.png" src="https://cdn.nlark.com/yuque/0/2019/png/262531/1574394256758-a0a19c80-c679-4253-b449-4c0571065f68.png" alt="image.png"  ></span></p>
+<p> </p>
+<h3 id="q9r7A">学会注释*</h3>
+<p>好记性不如烂笔头。你可以在任何地方，用 <code>//</code> ，或 <code>/* …… */</code> 帮你插入注释，记住你想记住的东西，避免一觉醒来就忘记“这是什么东西”。注释内容不会在故事运行时显示给玩家，也不会影响周围的其他内容。</p>
+<p> </p>
+<div id="lSO6f"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">“你怎么看？” 她问。
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">// 一行注释
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">“我无法评论，”我答。
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">/*
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    ……或者一段注释
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">*/</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>还有一种更强的注释 <code>TODO: </code>，帮你提醒要做什么。</p>
+<p><code>TODO: 认真写这一节！</code></p>
+<p> </p>
+<p><span    ><img class="image lake-drag-image" title="image.png" src="https://cdn.nlark.com/yuque/0/2019/png/262531/1573991366205-6cf1add7-6cca-40d2-ad5c-33cfc7196ae2.png" alt="image.png"  ></span></p>
+<p> </p>
+<p>在这个简单的故事中，你只需要简单的了解三个部分：<strong>结点</strong>、<strong>跳转</strong>和<strong>选项</strong>。</p>
+<p> </p>
+<h2 id="K5XSU">1. 结点 knots</h2>
+<p>故事是由多个相互链接的部分构成的，在 INK 中我们称其为结点（knots）。结点名称的<strong>左侧</strong><strong>至少</strong><strong>需要两个等号</strong>（<code>==</code>）进行标记，右侧的则是可选的（例如 <code>=== london ===</code>）。Inky 中会用蓝色突出显示已识别的标记，提示书写正确，并与其他内容区分。结点标记下面的内容都属于这个结点。</p>
+<p> </p>
+<div id="JGrn6"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== london === //这是节点
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">Phileas Fogg 先生早早从改革俱乐部回到了家，并乘坐了新型的蒸汽运输机！   
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">“领航,” 他喊到。 “我们去环游世界！”</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p><span    ><img class="image lake-drag-image" title="image.png" src="https://cdn.nlark.com/yuque/0/2019/png/262531/1573976398199-ecdc40f2-65b8-4e86-9c32-99b00db7c27a.png" alt="image.png"  ></span></p>
+<p> </p>
+<p>结点的名称（<strong>不能有空格、中文</strong>）不会在运行故事时显示。</p>
+<p>而当我们想要把不同部分链接的在一起时，会用到它们。</p>
+<p> </p>
+<p><span    ><img class="image lake-drag-image" title="image.png" src="https://cdn.nlark.com/yuque/0/2019/png/262531/1573974175692-2bad0e25-335b-4c6c-8bb6-ed376cde3f27.png" alt="image.png"  ></span></p>
+<p> </p>
+<h2 id="b6wBM">2. 跳转 divert</h2>
+<p>现在谈谈链接，我们称之为跳转（divert）。<code>-&gt; london</code></p>
+<p>使用<strong>跳转箭头</strong>（输入"减"与"右尖括号"），告诉故事去另一个结点。运行故事时，跳转是自动的且不会显示给玩家。</p>
+<p>因此，在故事的开头，显示了介绍性段落之后，就有 <code>-&gt; london</code> 的跳转，可将玩家直接跳入该名称的结点中。</p>
+<p> </p>
+<div id="gmADg"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">伦敦，1872年
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">Phileas Fogg 先生的住所。
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">-&gt; london //这是跳转
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== london === //这是节点
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">Phileas Fogg 先生早早从改革俱乐部回到了家，并乘坐了新型的蒸汽运输机！   
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">“领航，” 他喊到。 “我们去环游世界！”</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p><span    ><img class="image lake-drag-image" title="image.png" src="https://cdn.nlark.com/yuque/0/2019/png/262531/1573976428053-12900656-703c-4127-814e-a8749cb3a9b6.png" alt="image.png"  ></span></p>
+<p> </p>
+<p><span    ><img class="image lake-drag-image" title="image.png" src="https://cdn.nlark.com/yuque/0/2019/png/262531/1573975510052-2885bcdf-ce95-4838-9460-3508f94fea67.png" alt="image.png"  ></span></p>
+<p> </p>
+<h3 id="5jLih">特殊：END</h3>
+<p>这个故事的结尾，还有一种特殊的跳转。如果你跳转到“ <code>END</code>”，会告诉 INK 我们完成了，这里是<strong>结局</strong>。</p>
+<p> </p>
+<div id="VhgT3"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== ending //这也是节点 开始
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">“我们将在八十天内环游地球。” 他很平静地提出了这个近乎疯狂地计划“我们8:25去巴黎。一小时后。”
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">-&gt; END //特殊的跳转 结局</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p><span    ><img class="image lake-drag-image" title="image.png" src="https://cdn.nlark.com/yuque/0/2019/png/262531/1573976466710-71f71ac1-fcb6-4a5a-b4fe-5caa8f495378.png" alt="image.png"  ></span></p>
+<p> </p>
+<p><span    ><img class="image lake-drag-image" title="image.png" src="https://cdn.nlark.com/yuque/0/2019/png/262531/1573976130461-3b53fb83-0249-4cef-bcbe-51e88841110d.png" alt="image.png"  ></span></p>
+<p> </p>
+<p>试着删除例子中该有的 <code>-&gt; END</code> ，Inky 将在边缘显示错误。若将鼠标悬停在警告上，会提示你“loose end”。</p>
+<p> </p>
+<p><span    ><img class="image lake-drag-image" title="image.png" src="https://cdn.nlark.com/yuque/0/2019/png/262531/1573976364029-5506ce09-cc93-48dd-9cfa-42a4e61fad20.png" alt="image.png"  ></span></p>
+<p> </p>
+<p>这是 Inky 的一个重要的帮助功能，当你故事越来越复杂时，这些警告可提醒你仍要编写哪些部分。</p>
+<p> </p>
+<h3 id="QAcWa">胶水* glue</h3>
+<p>如必须让内容在同一行显示，还可以使用胶水（glue） <code>&lt;&gt;</code> 将其强制黏在同一行。</p>
+<p> </p>
+<div id="CHWhw"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">我们回家&lt;&gt; 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">-&gt; to_savile_row 
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== to_savile_row ===
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">去萨维尔街&lt;&gt;
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">-&gt; as_fast_as_we_could
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== as_fast_as_we_could ===
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">尽可能的快
+</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>你会在预览看到  <code>我们回家去萨维尔街尽可能的快</code> ，而非分三行显示。</p>
+<p> </p>
+<p><span    ><img class="image lake-drag-image" title="image.png" src="https://cdn.nlark.com/yuque/0/2019/png/262531/1574060159019-c0b3ac4b-8380-48ab-a105-eab38634d0c3.png" alt="image.png"  ></span></p>
+<p> </p>
+<h2 id="PMmCt">3. 选项 choices</h2>
+<p>谈到分歧，为了使互动小说更有趣，我们需要的最后一个关键功能当然是选项（choices）：</p>
+<p><code>+ “环游世界，先生？” </code></p>
+<p>选项看起来是 INK 中最重要的元素。通常它们会与跳转直接结合在一起，以便能创造一个直接跳转到故事其他地方的选项。</p>
+<p><code>+ [点头。] -&gt; nod</code></p>
+<p> </p>
+<p><span    ><img class="image lake-drag-image" title="image.png" src="https://cdn.nlark.com/yuque/0/2019/png/262531/1573981901328-894dd45e-d99a-40b3-816c-1081c07674ea.png" alt="image.png"  ></span></p>
+<p> </p>
+<p><span    ><img class="image lake-drag-image" title="image.png" src="https://cdn.nlark.com/yuque/0/2019/png/262531/1573981932950-da1aac14-00b3-4948-8c4d-e100b7fba968.png" alt="image.png"  ></span></p>
+<p> </p>
+<p>我们编写这些内容时，需要注意几件事：</p>
+<p>通常，你输入的选项内容既会成为可点击的选项，也会成为你点击后出现的文本的一部分。但是，如果你想要一个“无声的”（如动作）选项，则可以将选项放在<code>[</code>方括号中<code>]</code>，如上方第二个示例所示。</p>
+<p>这可以用于某些形式，像是不同的叙述风格。例如：</p>
+<p> </p>
+<div id="kl7cJ"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">+ [草率的点头]     -&gt; nod
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">+ 我草率的点了点头，  -&gt; nod
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">== nod ==
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">这有些不可思议。</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>第一个选项只会显示，“这有些不可思议。”；而第二个会显示“我草率的点了点头，这有些不可思议。”</p>
+<p> </p>
+<p><span    ><img class="image lake-drag-image" title="4.gif" src="https://cdn.nlark.com/yuque/0/2019/gif/262531/1573982192901-ba58f144-8d28-4ac3-8aee-df54c1e0c3d6.gif" alt="4.gif"  ></span></p>
+<p> </p>
+<p>你还可以在选项下添加额外的文本行。这将在选择后显示。例如：</p>
+<p> </p>
+<div id="l3osU"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">+ “环游世界，先生？” 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    我大吃一惊。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    “你在开玩笑！” 我认真地对他说。“你一定是在和我开玩笑，先生。” 
+</span></span>    
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">    -&gt; astonished
+</span></span>    
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== astonished ===
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">略……</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>等同于——</p>
+<p> </p>
+<div id="zQIZG"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">+ “环游世界，先生？”  -&gt; astonished
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== astonished ===
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">我大吃一惊。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">“你在开玩笑！” 我认真地对他说。“你一定是在和我开玩笑，先生。” 
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">略……</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>INK 是非常灵活的，它可以让你有很多不同的方式来构建你的故事。</p>
+<p> </p>
+<p>事实上*，<code>]</code> 之前的部分会被显示为选项，<code>[]</code> 内的内容会在选择后隐藏。你也可以把 <code>[]</code> 当作选项与选择之后内容的分隔符，便于快速输入，这些内容会显示在同一行。</p>
+<p><code>+ 我草率的点了点头，[]这有些不可思议。</code></p>
+<p> </p>
+<p><span    ><img class="image lake-drag-image" title="9.gif" src="https://cdn.nlark.com/yuque/0/2019/gif/262531/1574058322249-1e7c1c0f-b46e-4d78-aa68-235d03013077.gif" alt="9.gif"  ></span></p>
+<p> </p>
+<p>小技巧，你也可以试试 <code>“就是死我也不会吃的[！”]……真香！”</code> ，体验下选择前后的语气变化，这种细节在某些叙事风格种很有用。</p>
+<p> </p>
+<h3 id="hpIe1">一次性选项*</h3>
+<p>如想要选项只能被被玩家点一次，最简单的方式就是把选项的 <code>+</code> 改成 <code>*</code> 。</p>
+<p><code>* “环游世界，先生？”</code></p>
+<p>举个例子，你会发现下图中的一次性选项“2 Hello back!”不见了。</p>
+<p> </p>
+<div id="TXzwa"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">-&gt;hello
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">== hello
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">Hello world!
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">+   1 Hello back! //普通选项
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    Nice to hear from you! -&gt;hello
+</span></span>    
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">*   2 Hello back!//一次性选项
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    Nice to hear from you! -&gt;hello
+</span></span>    
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">+   3 Hello back!
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    Nice to hear from you! -&gt;hello</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p><span    ><img class="image lake-drag-image" title="5.gif" src="https://cdn.nlark.com/yuque/0/2019/gif/262531/1573984212426-9aee6a82-4341-428d-bb2f-eaf2b6187c9f.gif" alt="5.gif"  ></span></p>
+<p> </p>
+<h3 id="aSScG">结构说明</h3>
+<p>关于 INK 整体结构最后的说明：INK 始终从文件的顶部开始，然后一直向下运行。但如果你将所有内容拆分为结点，则务必确保在文件顶部至少有一个<strong>初始跳转</strong>（如<code>-&gt; top_knot</code>），以告诉它以哪个结点开始（修改初始跳转，可更方便的进行测试）。</p>
+<p> </p>
+<div id="B3EhQ"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">-&gt; top_knot //初始跳转
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">=== top_knot ===
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">Hello world!
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">-&gt; END</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>现在，为什么不尝试续写个故事呢？尝试插入更多的结点，更多的跳转，更多的选项，更多的结局，看看会发生什么！作为练习的开始，也许先试着把介绍性段落变成你的结点？</p>
+<p> </p>
+<h2 id="dkQAa">4. 条件内容</h2>
+<p>到目前为止，我们编写的所有内容，都能写成可发布的互动小说。但如果我们想根据玩家之前的经历不同，显示不同的文本和选项呢？</p>
+<p>INK 会记录运行中玩家经历的每个内容，以便你今后查询。例如，要确定玩家是否经过了称为（地下墓穴）的特定结点 <code>catacombs</code>：</p>
+<p> </p>
+<div id="iMcjv"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">{ catacombs: //条件：经过地下墓穴
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    这里比巴黎的地下墓穴还要暗。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">}</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>在这个<code>{</code>大括号中<code>}</code> ，你可以包含多行内容，甚至是跳转和选项（只有玩家<strong>经过</strong>了“catacombs”这个结点，大括号里的内容才会被显示）。</p>
+<p> </p>
+<p>但是，一个更简洁的编写条件选项的方法如下，仅当玩家经过某个结点后才显示特定选项的方法：</p>
+<p><code>+ {catacombs} [告诉她你的发现] -&gt; tell_her</code></p>
+<p>如果你想反转这个条件，换句话说，如果你想确认玩家没有经过地下墓穴，你只需在前面简单地加上：<code>not</code></p>
+<p><code>+ {not catacombs} [前往地下墓穴] -&gt; catacombs</code></p>
+<p>最后，你可用 <code>and</code> 和 <code>or</code> 形成更复杂的判定条件，并且用小括号来阐明逻辑的细节。几个例子：</p>
+<p> </p>
+<div id="sNU1E"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">{ catacombs and not pick_up_ring: //条件：经过地下墓穴且没经过捡起戒指
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    “所以你之后没找到它？”她质问到。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    + [抱歉] -&gt; apologise
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">}</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<div id="VVOtr"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">{ (catacombs or cross_river or sing_in_rain) and not buy_new_shoes: 
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">        //条件：（经过地下墓穴或穿过河或在雨中唱歌）且没经过买新鞋
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">    那天我的鞋子早就烂了。
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">}</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p>再看个例子*，你能发现选“白色的”虽然和灰色的后面走的是一样的结点，但显示的内容变多了。</p>
+<p> </p>
+<div id="lFRiK"    >
+<div class="lake-codeblock-content">
+<div class="">
+<pre class="cm-s-default"><span class="lake-preview-line"><span class="lake-preview-codeblock-content">你想买什么颜色的狼？
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">+ 白色的…… -&gt; white
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">+ 灰色的…… -&gt; gray
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">== white
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">让我找找看。
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">-&gt; gray
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">== gray
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">{ white:白色的狼卖没了。 }要买灰色的狼吗?
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">+ {white}我一定要白色的狼-&gt;wolf
+</span></span><span class="lake-preview-line"><span class="lake-preview-codeblock-content">+ 好的，买灰色的狼-&gt;wolf
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">== wolf
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">……略
+</span></span>
+<span class="lake-preview-line"><span class="lake-preview-codeblock-content">-&gt; END</span></span></pre>
+</div>
+</div>
+</div>
+<p> </p>
+<p><span    ><img class="image lake-drag-image" title="1.gif" src="https://cdn.nlark.com/yuque/0/2019/gif/262531/1574678637567-6fc85742-97ee-4785-babd-f8dfdcbc194d.gif" alt="1.gif"  ></span></p>
+<p> </p>
+<div id="HTEC9"    ><hr></div>
+<h1 id="HHvam"> </h1>
             ]]>
         </content>
     </entry>
